@@ -45,6 +45,9 @@
         </div>    
     </Header>
     
+    <body>
+      <h1>Booklr</h1>
+    </body>
     <!-- Site footer -->
     <footer class="site-footer">
       <div class="container-fluid">

@@ -184,7 +184,7 @@ body {
 
 /*Bestseller section*/
 .bestseller-Section h3 {
-  margin-left: 15.5rem;
+  margin-left: 50px;
 }
 
 .paragraph-bestseller a {
@@ -196,7 +196,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   gap: 15px;
-  margin-left: 15.5rem;
+  margin-left: 50px;
   margin-right: auto;
   text-align: center;
 }

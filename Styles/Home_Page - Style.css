@@ -183,39 +183,32 @@ body {
 /*Icon Bar ends*/
 
 /*Bestseller section*/
-.bestseller-Section .header {
-  display: inline-flex;
-  width: auto;
-  height: auto;
+.bestseller-Section h3 {
+  margin-left: 15.5rem;
 }
 
-.bestseller-Section .header h3 {
-  padding-left: 5rem;
+.paragraph-bestseller a {
+  text-align: right;
+  text-decoration: none;
 }
-
-.bestseller-Section .header p a {
-  float: inline-end;
-}
-
-.bestseller-slider .box {
-  width: 25rem;
-  margin: 2rem o;
-  position: relative;
-  overflow: hidden;
-  border-color: #ffffff;
+.bestseller-books {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 15px;
+  margin-left: 15.5rem;
+  margin-right: auto;
   text-align: center;
-  border: var(--border);
 }
 
-.bestseller-slider .box:hover {
-  border: var(--border-hover);
+.bestseller-books img {
+  width: 14rem;
+  height: 20rem;
 }
 
-.bestseller-slider .box .slider-image {
-  padding: 1rem;
-  background: hsl(0, 100%, 99%);
+.bestseller-books a {
+  text-decoration: none;
 }
-
-.bestseller-slider .box .slider-image img {
-  height: 25rem;
+.details {
+  padding: 10px;
 }

@@ -15,9 +15,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
         <!--Icon Library Font Awesome-->
-        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
-        <!--Swiper JS CSS-->
-        <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>                                                                                 
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
         <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
@@ -28,20 +26,12 @@
         <img class="header_Logo"src="" alt="Booklr">
         
         <!--Search Bar-->
-        <div class="boxContrainer">
-            <table class="elementsContrainer">
-                <tr>
-                    <td>
-                        <input type="text" placeholder="Search Book" class="search">
-                    </td>
-                    <td>
-                        <a href="#"><i class="material-icons">search</i></a>
-                    </td>
-                    <td>
-                      <a href="#"><i class="fa-regular fa-cart-shopping-fast"></i></a>
-                    </td>
-                </tr>
-            </table>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search">
+          <a href=""><i class="fa fa-search"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-heart"></i></a>
         </div>
 
         <!--Navigation Bar-->        
@@ -53,7 +43,9 @@
                 <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
                 <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-            </ul>
+                <li class="user-access"><a href="Login.php" class="Login">Login</a>
+                <li class="user-access"><a href="Register.php" class="Register">Register</a>
+              </ul>
         </div>    
     </Header>
     
@@ -100,72 +92,63 @@
       <!--Bestseller section-->
       <div class="bestseller-Section">
         <div class="header">
-          <h3>Bestseller</h3>
-          <p><a href="books.php">View All</a>
+          <h3 Style="display:inline-block;">Bestseller</h3>
+          <p class="paragraph-bestseller" Style="display:inline-block;"><a href="books.php">View All</a>
         </div>
 
-        <!--Bestseller Slider-->
-        <div class="swiper bestseller-slider">
-          <div class="swiper-wrapper">
-            <div class="box">              
-            <div class="slider-image">
-              <img src="./Images/bestseller-slider/book-1.jpg" alt="book1.png">
-            </div>
+        <!--Bestseller Books-->
+        <div class="bestseller-books">
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-1.jpg" />
             <div class="details">
-              <div class="price">LKR.1,400/=</div>
-              <a href="#" class="btn">Add to cart</a>
+              <h5>LKR.1,400/=</h5>              
             </div>
-          </div>
+          </a>
+          
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-2.jpg" />
+            <div class="details">
+              <h5>LKR.900/=</h5>              
+            </div>
+          </a>
+          
 
-          <div class="box">
-            <div class="slider-image">
-              <img src="./Images/bestseller-slider/book-2.jpg" alt="book1.png">
-            </div>
-            <div class="details">              
-              <div class="price">LKR.1,400/=</div>
-              <a href="#" class="btn">Add to cart</a>
-            </div>
-          </div>
-          
-          <div class="box">
-            <div class="slider-image">
-              <img src="./Images/bestseller-slider/book-3.jpg" alt="book1.png">
-            </div>
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-3.jpg" />
             <div class="details">
-              <div class="price">LKR.1,400/=</div>
-              <a href="#" class="btn">Add to cart</a>
+              <h5>LKR.4,000/=</h5>              
             </div>
-          </div>
+          </a>
           
-          <div class="box">
-            <div class="slider-image">
-              <img src="./Images/bestseller-slider/book-4.jpg" alt="book1.png">
-            </div>
+
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-4.jpg" />
             <div class="details">
-              <div class="price">LKR.1,400/=</div>
-              <a href="#" class="btn">Add to cart</a>
+              <h5>LKR.1,780/=</h5>              
             </div>
-          </div>
+          </a>
           
-          <div class="swiper-slide box">
-            <div class="slider-image">
-              <img src="./Images/bestseller-slider/book-5.jpg" alt="book1.png">
-            </div>
+
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-5.jpg" />
             <div class="details">
-              <div class="price">LKR.1,400/=</div>
-              <a href="#" class="btn">Add to cart</a>
+              <h5>LKR.3,400/=</h5>              
             </div>
-          </div>
+          </a>
+          
+
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-6.jpg" />
+            <div class="details">
+              <h5>LKR.2,900/=</h5>              
+            </div>
+          </a>
+          
         </div>
-        
-        <!--Buttons-->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
+      </div>      
       <!--Bestseller section end-->
 
-        <!--Swiper Js -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    
 
         <!--Custom Javascript-->
         <script href="./Javascript/script.js"></script>

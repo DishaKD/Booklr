@@ -99,14 +99,14 @@
         <!--Bestseller Books-->
         <div class="bestseller-books">
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-1.jpg" />
+            <img src="./Images/bestseller/book-1.jpg" />
             <div class="details">
               <h5>LKR.1,400/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-2.jpg" />
+            <img src="./Images/bestseller/book-2.jpg" />
             <div class="details">
               <h5>LKR.900/=</h5>              
             </div>
@@ -114,7 +114,7 @@
           
 
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-3.jpg" />
+            <img src="./Images/bestseller/book-3.jpg" />
             <div class="details">
               <h5>LKR.4,000/=</h5>              
             </div>
@@ -122,7 +122,7 @@
           
 
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-4.jpg" />
+            <img src="./Images/bestseller/book-4.jpg" />
             <div class="details">
               <h5>LKR.1,780/=</h5>              
             </div>
@@ -130,7 +130,7 @@
           
 
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-5.jpg" />
+            <img src="./Images/bestseller/book-5.jpg" />
             <div class="details">
               <h5>LKR.3,400/=</h5>              
             </div>
@@ -138,29 +138,99 @@
           
 
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-6.jpg" />
+            <img src="./Images/bestseller/book-6.jpg" />
             <div class="details">
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
 
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-7.jpg" />
+            <img src="./Images/bestseller/book-7.jpg" />
             <div class="details">
               <h5>LKR.5,900/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="./Images/bestseller-slider/book-8.jpg" />
+            <img src="./Images/bestseller/book-8.jpg" />
             <div class="details">
               <h5>LKR.4,100/=</h5>              
             </div>
-          </a>    
-          
+          </a>
         </div>
       </div>      
       <!--Bestseller section end-->
+
+      <!--Top Rated section-->      
+      <div class="toprated-Section">
+        <div class="header">
+          <h3 Style="display:inline-block;">Top Rated Books</h3>
+          <p class="paragraph-toprated" Style="display:inline-block;"><a href="books.php">View All</a>
+        </div>
+
+        <!--Bestseller Books-->
+        <div class="toprated-books">
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-1.jpg" />
+            <div class="details">
+              <h5>LKR.1,400/=</h5>              
+            </div>
+          </a>
+          
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-2.jpg" />
+            <div class="details">
+              <h5>LKR.900/=</h5>              
+            </div>
+          </a>
+          
+
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-3.jpg" />
+            <div class="details">
+              <h5>LKR.4,000/=</h5>              
+            </div>
+          </a>
+          
+
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-4.jpg" />
+            <div class="details">
+              <h5>LKR.1,780/=</h5>              
+            </div>
+          </a>
+          
+
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-5.jpg" />
+            <div class="details">
+              <h5>LKR.3,400/=</h5>              
+            </div>
+          </a>
+          
+
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-6.jpg" />
+            <div class="details">
+              <h5>LKR.2,900/=</h5>              
+            </div>
+          </a>
+
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-7.jpg" />
+            <div class="details">
+              <h5>LKR.5,900/=</h5>              
+            </div>
+          </a>
+          
+          <a href="#Books.php">
+            <img src="./Images/toprated/tr-8.jpg" />
+            <div class="details">
+              <h5>LKR.4,100/=</h5>              
+            </div>
+          </a>
+        </div>
+      </div>  
 
     
 

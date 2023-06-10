@@ -187,11 +187,13 @@ body {
   margin-left: 60px;
 }
 
-.paragraph-bestseller a {
+.paragraph-bestseller a,
+.paragraph-toprated a {
   text-align: right;
   text-decoration: none;
 }
-.bestseller-books {
+.bestseller-books,
+.toprated-books {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -201,7 +203,8 @@ body {
   text-align: center;
 }
 
-.bestseller-books img {
+.bestseller-books img,
+.toprated-books img {
   width: 13rem;
   height: 19rem;
 }
@@ -211,4 +214,12 @@ body {
 }
 .details {
   padding: 10px;
+}
+
+.toprated-Section h3 {
+  margin-left: 60px;
+}
+
+.toprated-books a {
+  text-decoration: none;
 }

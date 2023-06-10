@@ -2,14 +2,20 @@
 <!DOCTYPE html></Doctype>
 <html lang=en>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale-1">
 
 
     <Head>
+        <!--Custom CSS-->
         <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
+        <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--Bootstrap CDN-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
+        <!--Icon Library Font Awesome-->
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
+        <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
 
@@ -45,16 +51,33 @@
         </div>    
     </Header>
     
+    <!--Body Section-->
     <body>
-      <h1>Booklr</h1>
+      <!--Main Logo-->
+      <img class="main-logo" src="./Images/main_logo.jpg" alt="main-logo">
+      <!--Provide Service Icons -->
+      <div class="icon-bar">
+        <ul class="service-Icons">
+          <li><i class="fa-solid fa-truck-fast fa-2xl"></i>Free Shipping <p>Orders over 5000 rupees</p></li>
+          <li><i class="fa-solid fa-file-shield fa-2xl"></i>Secure Payment<p>100% Protected Payment</p></li>
+          <li><i class="fa-solid fa-arrows-rotate fa-2xl"></i>Easy Returns<p>7 Days Return</p></li>
+          <li><i class="fa-solid fa-headset fa-2xl"></i>24/7 Support<p>Call Us Anytime</p></li>
+        </ul>
+      </div>
+
+      <br>
+      <br>
     </body>
     <!-- Site footer -->
     <footer class="site-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-10 col-md-4">
+            <!--Main Logo in White-->
             <img src="images/logo-white.png" alt="logo-white">
+            <!--Brief about website and services-->
             <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+            <!--Redirect to About Us page-->
             <a class social>Learn More About Us</a>
           </div>  
           

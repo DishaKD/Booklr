@@ -13,8 +13,11 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Bootstrap CDN-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
         <!--Icon Library Font Awesome-->
         <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
+        <!--Swiper JS CSS-->
+        <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>                                                                                 
         <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
@@ -33,6 +36,9 @@
                     </td>
                     <td>
                         <a href="#"><i class="material-icons">search</i></a>
+                    </td>
+                    <td>
+                      <a href="#"><i class="fa-regular fa-cart-shopping-fast"></i></a>
                     </td>
                 </tr>
             </table>
@@ -54,19 +60,122 @@
     <!--Body Section-->
     <body>
       <!--Main Logo-->
-      <img class="main-logo" src="./Images/main_logo.jpg" alt="main-logo">
+      <img class="img-fluid" src="./Images/main_logo-1.jpg" alt="main-logo">
+      
       <!--Provide Service Icons -->
       <div class="icon-bar">
-        <ul class="service-Icons">
-          <li><i class="fa-solid fa-truck-fast fa-2xl"></i>Free Shipping <p>Orders over 5000 rupees</p></li>
-          <li><i class="fa-solid fa-file-shield fa-2xl"></i>Secure Payment<p>100% Protected Payment</p></li>
-          <li><i class="fa-solid fa-arrows-rotate fa-2xl"></i>Easy Returns<p>7 Days Return</p></li>
-          <li><i class="fa-solid fa-headset fa-2xl"></i>24/7 Support<p>Call Us Anytime</p></li>
-        </ul>
+        <div class="icons">
+          <i class="fa-solid fa-truck-fast fa-2xl"></i>
+          <div class="description">
+            <h3>Free Shipping</h3>
+            <p>Order over 5000 rupees</p>
+          </div>
+        </div>
+
+        <div class="icons">
+          <i class="fa-solid fa-file-shield fa-2xl"></i>
+          <div class="description">
+            <h3>Secure Payment</h3>
+            <p>Fully protected transactions</p>
+          </div>
+        </div>
+
+        <div class="icons">
+          <i class="fa-solid fa-arrows-rotate fa-2xl"></i>
+          <div class="description">
+            <h3>Easy Returns</h3>
+            <p>7 days return policy</p>
+          </div>
+        </div>
+        
+        <div class="icons">
+          <i class="fa-solid fa-headset fa-2xl"></i>
+          <div class="description">
+            <h3>24/7 Support</h3>
+            <p>Call us anytime</p>
+          </div>
+        </div>
       </div>
 
-      <br>
-      <br>
+      <!--Bestseller section-->
+      <div class="bestseller-Section">
+        <div class="header">
+          <h3>Bestseller</h3>
+          <p><a href="books.php">View All</a>
+        </div>
+
+        <!--Bestseller Slider-->
+        <div class="swiper bestseller-slider">
+          <div class="swiper-wrapper">
+            <div class="box">              
+            <div class="slider-image">
+              <img src="./Images/bestseller-slider/book-1.jpg" alt="book1.png">
+            </div>
+            <div class="details">
+              <div class="price">LKR.1,400/=</div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="slider-image">
+              <img src="./Images/bestseller-slider/book-2.jpg" alt="book1.png">
+            </div>
+            <div class="details">              
+              <div class="price">LKR.1,400/=</div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          
+          <div class="box">
+            <div class="slider-image">
+              <img src="./Images/bestseller-slider/book-3.jpg" alt="book1.png">
+            </div>
+            <div class="details">
+              <div class="price">LKR.1,400/=</div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          
+          <div class="box">
+            <div class="slider-image">
+              <img src="./Images/bestseller-slider/book-4.jpg" alt="book1.png">
+            </div>
+            <div class="details">
+              <div class="price">LKR.1,400/=</div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+          
+          <div class="swiper-slide box">
+            <div class="slider-image">
+              <img src="./Images/bestseller-slider/book-5.jpg" alt="book1.png">
+            </div>
+            <div class="details">
+              <div class="price">LKR.1,400/=</div>
+              <a href="#" class="btn">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        
+        <!--Buttons-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!--Bestseller section end-->
+
+        <!--Swiper Js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+        <!--Custom Javascript-->
+        <script href="./Javascript/script.js"></script>
+        
+        
+        
+
+      
+      
+
     </body>
     <!-- Site footer -->
     <footer class="site-footer">

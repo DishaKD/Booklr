@@ -7,11 +7,11 @@
 
     <Head>
         <link rel="stylesheet" href="./Styles/About_Page -Style.css">
+        <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="./about.css">
-
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
         <title>Booklr</title>
     </Head>
 
@@ -21,17 +21,12 @@
         <img class="header_Logo"src="" alt="Booklr">
         
         <!--Search Bar-->
-        <div class="boxContrainer">
-            <table class="elementsContrainer">
-                <tr>
-                    <td>
-                        <input type="text" placeholder="Search Book" class="search">
-                    </td>
-                    <td>
-                        <a href="#"><i class="material-icons">search</i></a>
-                    </td>
-                </tr>
-            </table>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search">
+          <a href=""><i class="fa fa-search"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-heart"></i></a>
         </div>
 
         <!--Navigation Bar-->        
@@ -43,7 +38,9 @@
                 <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
                 <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-            </ul>
+                <li class="user-access"><a href="Login.php" class="Login">Login</a>
+                <li class="user-access"><a href="Register.php" class="Register">Register</a>
+              </ul>
         </div>    
     </Header>
         <body>

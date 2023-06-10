@@ -71,6 +71,10 @@ body {
   background-color: #18213f;
 }
 
+.navigation-bar .user-access {
+  float: right;
+}
+
 /*Footer*/
 .site-footer {
   background-color: #18213f;

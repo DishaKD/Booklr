@@ -43,7 +43,9 @@
                 <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
                 <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-            </ul>
+                <li class="user-access"><a href="Login.php" class="Login">Login</a>
+                <li class="user-access"><a href="Register.php" class="Register">Register</a>
+              </ul>
         </div>    
     </Header>
     

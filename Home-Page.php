@@ -143,6 +143,20 @@
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
+
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-7.jpg" />
+            <div class="details">
+              <h5>LKR.5,900/=</h5>              
+            </div>
+          </a>
+          
+          <a href="#Books.php">
+            <img src="./Images/bestseller-slider/book-8.jpg" />
+            <div class="details">
+              <h5>LKR.4,100/=</h5>              
+            </div>
+          </a>    
           
         </div>
       </div>      

@@ -184,7 +184,7 @@ body {
 
 /*Bestseller section*/
 .bestseller-Section h3 {
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .paragraph-bestseller a {
@@ -196,14 +196,14 @@ body {
   flex-wrap: wrap;
   margin: 0;
   gap: 15px;
-  margin-left: 50px;
+  margin-left: 60px;
   margin-right: auto;
   text-align: center;
 }
 
 .bestseller-books img {
-  width: 14rem;
-  height: 20rem;
+  width: 13rem;
+  height: 19rem;
 }
 
 .bestseller-books a {

@@ -37,13 +37,13 @@
         <!--Navigation Bar-->        
         <div class="navigation-bar">
             <ul class="navigation-bar">
-                <li class="navigation-bar"><a href="home.html" class="Home">Home</a></li>
+                <li class="navigation-bar"><a href="Home-Page.php" class="Home">Home</a></li>
                 <li class="navigation-bar"><a href="About.php" class="About">About</a></li>
                 <li class="navigation-bar"><a href="Books.php" class="Books">Books</a></li>
                 <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
                 <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-                <li class="user-access"><a href="Login.php" class="Login">Login</a>
+                <li class="user-access"><a href="" class="Login">Login</a>
                 <li class="user-access"><a href="Register.php" class="Register">Register</a>
               </ul>
         </div>    
@@ -231,11 +231,9 @@
           </a>
         </div>
       </div>  
-
-    
-
-        <!--Custom Javascript-->
-        <script href="./Javascript/script.js"></script>
+      
+      <!--Custom Javascript-->
+      <script href="./Javascript/script.js"></script>
         
         
         

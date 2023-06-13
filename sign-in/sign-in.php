@@ -1,44 +1,77 @@
-<?php
-session_start();
+    <!-- Signin Section-->
+    <?php 
+    include_once('config/sign-in-config.php');
+    ?>
 
-//check customer logged in, if not redirect to sign-in page
-if (!isset($_SESSION['User_Fname']) || !isset($_SESSION['User_Lname'])) {
-  header("Location: ../sign-in/sign-in.php");
-  exit();
-}
+    <?php
+      if(isset($_POST['submit'])){
+        //declaring variables and assign empty values
+        $email = "";
+        $password = "";
 
-//get user data from the session
-$firstName = $_SESSION['User_Fname'];
-$lastName = $_SESSION['User_Lname'];
-$email = $_SESSION['User_Email'];
-$gender = $_SESSION['User_Gender'];
-$phone = $_SESSION['User_Phone_number'];
-$address = $_SESSION['User_Address'];
-$dob = $_SESSION['User_DOB'];
-$password = $_SESSION['User_Password'];
+        $email = input_varify($_POST['Email_Address']);
+        $password = input_varify($_POST['Password']);
 
-?>
+       $query1 = "SELECT * FROM customer WHERE Email_Address = '{$email}' AND Password = '{$password}' LIMIT 1";
+
+       $showResult = mysqli_query($con, $query1);
+
+       if($showResult){
+        if(mysqli_num_rows($showResult) == 1){
+          
+          $user = mysqli_fetch_assoc($showResult);
+          $_SESSION['User_Fname'] = $user['F_name'];
+          $_SESSION['User_Lname'] = $user['L_name'];
+          $_SESSION['User_Email'] = $user['Email_Address'];
+          $_SESSION['User_Gender'] = $user['Gender'];
+          $_SESSION['User_Phone_number'] = $user['Phone_number'];
+          $_SESSION['User_Address'] = $user['Address'];
+          $_SESSION['User_DOB'] = $user['DOB'];
+          $_SESSION['User_Password'] = $user['Password'];
+          header("Location: ../my-account/my-account.php");
+        }
+        else{
+          echo '<script type="text/javascript">
+                  window.onload = function () {alert("Please check your email and password"); }
+              </script>';
+        }
+       }
+
+      }
+
+      function input_varify($data){
+        //Remove empty space from user input
+        $data = trim($data);
+        //Remove back slash from user input
+        $data = stripslashes($data);
+        //conver special chars to html entities
+        $data = htmlspecialchars($data);
+
+        return $data;
+    }
+    ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="styles/my-account-styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Account</title>
+  <title>Sign In</title>
 
   <!--Custom CSS-->
-  <link rel="stylesheet" href="styles/Home_Page - Style.css">
-  <link rel="stylesheet" href="styles/my-account-styles.css">
+  <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
+  <link rel="stylesheet" type="text/css" href="styles/sign-in-styles.css">
   <!--Google Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!--Bootstrap CDN-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
   <!--Icon Library Font Awesome-->
-  <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
+  <!--Title of the webpage-->
+  <title>Booklr</title>
 </head>
-<!--Header-->
+
 <Header class="page header">
         <!--Logo-->  
         <img class="logo"src="Images/logo.png" alt="Booklr">
@@ -57,25 +90,35 @@ $password = $_SESSION['User_Password'];
               </ul>
         </div><br><br>
     </Header>
-    
 <body>
-<center>
-<div class="img-prof">
-  <img src="images/p4.jpg" alt="profile pic">
-</div>
-  <h1><?php echo $firstName.' '.$lastName; ?></h1><br>
-  <p>Email: <?php echo $email; ?></p>
-  <p>Gender: <?php echo $gender; ?></p>
-  <p>Phone: <?php echo $phone; ?></p>
-  <p>Address: <?php echo $address; ?></p>
-  <p>Date of Birth: <?php echo $dob; ?></p>
-  <p>Password: <?php echo $password; ?></p>
-  <button class="deleteButton" onclick="location.href='delete.php'">Delete Details</button>
-  <button class="updateButton" onclick="location.href='update.php'">Update Details</button>
-</center><br><br><br>
 
-<!-- Site footer -->
-<footer class="site-footer">
+  <!--Sign In Form-->
+  <div>
+  <img class="image" src="images/sign-in.jpg">
+
+  <h1>Sign In</h1>
+  <p>Hello again! Welcome back.</p>
+
+    <form class="form" action="" method="POST" autocomplete="off">
+
+      <label>Email</label><br>
+      <input type="email" id="Email_Address" name="Email_Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="example@gmail.com" required><br><br>
+
+      <label>Password</label><br>
+      <input type="password" id="Password" name="Password"><br><br>
+
+      <input type="checkbox" id="checkbox" onclick="appearSignIn()"> Remember Me</p><br>
+      
+      <p><a href="#">Forgot Password?</a></p>
+
+      <button type="submit" name="submit" id="submitButton" value="Sign In">Sign in</button>
+
+      <p>Don't have an account? <a href="../sign-up/sign-up.php">Create a new account</a></p>
+    </form>
+  </div>
+
+  <!-- Site footer -->
+  <footer class="site-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-10 col-md-4">
@@ -133,5 +176,6 @@ $password = $_SESSION['User_Password'];
             <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by <a href="#">Booklr</a>.</p>
           </div>
     </footer>
+
 </body>
 </html>

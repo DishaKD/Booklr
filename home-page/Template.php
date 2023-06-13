@@ -1,45 +1,27 @@
-<?php
-session_start();
+<!--Home Page-->
+<!DOCTYPE html></Doctype>
+<html lang=en>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale-1">
 
-//check customer logged in, if not redirect to sign-in page
-if (!isset($_SESSION['User_Fname']) || !isset($_SESSION['User_Lname'])) {
-  header("Location: ../sign-in/sign-in.php");
-  exit();
-}
 
-//get user data from the session
-$firstName = $_SESSION['User_Fname'];
-$lastName = $_SESSION['User_Lname'];
-$email = $_SESSION['User_Email'];
-$gender = $_SESSION['User_Gender'];
-$phone = $_SESSION['User_Phone_number'];
-$address = $_SESSION['User_Address'];
-$dob = $_SESSION['User_DOB'];
-$password = $_SESSION['User_Password'];
+    <Head>
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
+        <!--Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--Bootstrap CDN-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
+        <!--Icon Library Font Awesome-->
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
+        <!--Title of the webpage-->
+        <title>Booklr</title>
+    </Head>
 
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="styles/my-account-styles.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Account</title>
-
-  <!--Custom CSS-->
-  <link rel="stylesheet" href="styles/Home_Page - Style.css">
-  <link rel="stylesheet" href="styles/my-account-styles.css">
-  <!--Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <!--Bootstrap CDN-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
-  <!--Icon Library Font Awesome-->
-  <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
-</head>
-<!--Header-->
-<Header class="page header">
+    <!--Header-->
+    <Header class="page header">
         <!--Logo-->  
         <img class="logo"src="Images/logo.png" alt="Booklr">
 
@@ -55,27 +37,20 @@ $password = $_SESSION['User_Password'];
                 <li class="user-access"><a href="" class="Login">Login</a>
                 <li class="user-access"><a href="Register.php" class="Register">Register</a>
               </ul>
-        </div><br><br>
+        </div>  
+        
+        <!--Search Bar-->
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search">
+          <a href=""><i class="fa fa-search"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-heart"></i></a>
+        </div><br>       
     </Header>
     
-<body>
-<center>
-<div class="img-prof">
-  <img src="images/p4.jpg" alt="profile pic">
-</div>
-  <h1><?php echo $firstName.' '.$lastName; ?></h1><br>
-  <p>Email: <?php echo $email; ?></p>
-  <p>Gender: <?php echo $gender; ?></p>
-  <p>Phone: <?php echo $phone; ?></p>
-  <p>Address: <?php echo $address; ?></p>
-  <p>Date of Birth: <?php echo $dob; ?></p>
-  <p>Password: <?php echo $password; ?></p>
-  <button class="deleteButton" onclick="location.href='delete.php'">Delete Details</button>
-  <button class="updateButton" onclick="location.href='update.php'">Update Details</button>
-</center><br><br><br>
-
-<!-- Site footer -->
-<footer class="site-footer">
+    <!-- Site footer -->
+    <footer class="site-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-10 col-md-4">
@@ -133,5 +108,4 @@ $password = $_SESSION['User_Password'];
             <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by <a href="#">Booklr</a>.</p>
           </div>
     </footer>
-</body>
 </html>

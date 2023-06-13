@@ -2,15 +2,21 @@
 <!DOCTYPE html></Doctype>
 <html lang=en>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale-1">
 
 
     <Head>
-        <link rel="stylesheet" href="./styles/cart.css">
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
+        <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--Bootstrap CDN-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="./script/script.js"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
+        <!--Icon Library Font Awesome-->
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                        
+        <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
 
@@ -20,17 +26,12 @@
         <img class="header_Logo"src="" alt="Booklr">
         
         <!--Search Bar-->
-        <div class="boxContrainer">
-            <table class="elementsContrainer">
-                <tr>
-                    <td>
-                        <input type="text" placeholder="Search Book" class="search">
-                    </td>
-                    <td>
-                        <a href="#"><i class="material-icons">search</i></a>
-                    </td>
-                </tr>
-            </table>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search">
+          <a href=""><i class="fa fa-search"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-heart"></i></a>
         </div>
 
         <!--Navigation Bar-->        
@@ -42,108 +43,22 @@
                 <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
                 <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-            </ul>
+                <li class="user-access"><a href="Login.php" class="Login">Login</a>
+                <li class="user-access"><a href="Register.php" class="Register">Register</a>
+              </ul>
         </div>    
     </Header>
     
-    <!-- Cart -->
-
-    <body>
-	
-        <div class = "container text">
-            <header>
-                <h1>Shopping Cart</h1>
-            </header>
-        </div>
-        
-        <div class="container cart-page">
-        <table>
-            <tr>
-                <th>ITEMS</th>
-                <th>QUANTITY</th>
-                <th>PRICE</th>
-                <th>TOTAL</th>
-                <th></th>
-            </tr>
-      <?php  
-           // Fetch data from the database
-      // Replace the database connection details with your own
-	   $servername="localhost";
-	   $username="root";
-	   $password="";
-	   $dbname="books";
-	   
-	   //create connection
-	   $conn=new mysqli($servername,$username,$password,$dbname);
-	   
-	   //check connection
-	   if($conn->connect_error){
-		   die("connection failed:".$conn->connect_error);
-		   
-	   }
-
-	  
-            $sql= "SELECT * FROM books";
-            $result= mysqli_query ($conn,$sql);			
-            $subtotal = 0;
-			while ($row=$result->fetch_assoc()){
-        $subtotal = $subtotal + $row['price'];
-			echo "<tr>
-                <td>
-                    <div class='cart-info'>
-                        <img class='book' src='images/book1.jpeg'>
-                        <div>
-                            <p>".$row['book name']."</p>
-                            <small>".$row['author']."</small>
-                        </div>
-                    </div>
-                </td>
-                <form method='POST' action=''>
-			   <td><input class='quantity".$row['book_ID']."' onchange='changequantity(`".$row['book_ID']."`)' type='number' name='quantity' min='0' value='2'></td>
-                <td class='price".$row['book_ID']."'>".$row['price']."</td></form>";
-				
-    
-
-				echo"
-                <td><span class='total".$row['book_ID']." total-price-ammount'>".$row['price']."</span></td>
-                <td><a href='deletebooks.php?id=".$row['book_ID']."'>X</a></td>
-				
-            </tr>";
-			}
-      echo "</table>";
-      
-      
-      echo "<div class='total-price'>
-
-      <table>
-          <tr>
-              <td>Subtotal</td>
-              <td class='subtotal-ammount'>$".$subtotal."</td>
-          </tr>
-          <tr>
-              <td>Shipping</td>
-              <td>$60</td>
-          </tr>
-          <tr>
-              <td>Total</td>
-              <td class='total-ammount'>$".($subtotal + 60)."</td>
-          </tr>
-      </table>
-
-  </div>";	
-		?>	
-      
-
-        </div>
-    </body>
-
     <!-- Site footer -->
     <footer class="site-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-10 col-md-4">
+            <!--Main Logo in White-->
             <img src="images/logo-white.png" alt="logo-white">
+            <!--Brief about website and services-->
             <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+            <!--Redirect to About Us page-->
             <a class social>Learn More About Us</a>
           </div>  
           

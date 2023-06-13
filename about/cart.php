@@ -6,10 +6,9 @@
 
 
     <Head>
-        <link rel="stylesheet" href="./styles/cart.css">
+        <link rel="stylesheet" href="./Styles/cart.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="./script/script.js"></script>
 
         <title>Booklr</title>
     </Head>
@@ -85,9 +84,8 @@
 	  
             $sql= "SELECT * FROM books";
             $result= mysqli_query ($conn,$sql);			
-            $subtotal = 0;
+			
 			while ($row=$result->fetch_assoc()){
-        $subtotal = $subtotal + $row['price'];
 			echo "<tr>
                 <td>
                     <div class='cart-info'>
@@ -99,40 +97,37 @@
                     </div>
                 </td>
                 <form method='POST' action=''>
-			   <td><input class='quantity".$row['book_ID']."' onchange='changequantity(`".$row['book_ID']."`)' type='number' name='quantity' min='0' value='2'></td>
-                <td class='price".$row['book_ID']."'>".$row['price']."</td></form>";
+			   <td><input type='number' name='quantity' value='2'></td>
+                <td>".$row['price']."</td></form>";
 				
-    
 
 				echo"
-                <td><span class='total".$row['book_ID']." total-price-ammount'>".$row['price']."</span></td>
-                <td><a href='deletebooks.php?id=".$row['book_ID']."'>X</a></td>
+                <td></td>
+                <td><a href=''>X</a></td>
 				
             </tr>";
-			}
-      echo "</table>";
-      
-      
-      echo "<div class='total-price'>
-
-      <table>
-          <tr>
-              <td>Subtotal</td>
-              <td class='subtotal-ammount'>$".$subtotal."</td>
-          </tr>
-          <tr>
-              <td>Shipping</td>
-              <td>$60</td>
-          </tr>
-          <tr>
-              <td>Total</td>
-              <td class='total-ammount'>$".($subtotal + 60)."</td>
-          </tr>
-      </table>
-
-  </div>";	
+			}	
 		?>	
-      
+        </table>
+
+        <div class="total-price">
+
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$600</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$660</td>
+                </tr>
+            </table>
+
+        </div>
 
         </div>
     </body>

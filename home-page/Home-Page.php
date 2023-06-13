@@ -8,7 +8,7 @@
 
     <Head>
         <!--Custom CSS-->
-        <link rel="stylesheet" href="home-page/Styles/Home_Page - Style.css">
+        <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
         <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Bootstrap CDN-->
@@ -23,19 +23,19 @@
     <!--Header-->
     <Header class="page header">
         <!--Logo-->  
-        <img class="logo"src="home-page/Images/logo.png" alt="Booklr">
+        <img class="logo"src="Images/logo.png" alt="Booklr">
 
         <!--Navigation Bar-->        
         <div class="navigation-bar">
             <ul class="navigation-bar">
-                <li class="navigation-bar"><a href="index.html" class="Home">Home</a></li>
-                <li class="navigation-bar"><a href="about/About.php" class="About">About</a></li>
-                <li class="navigation-bar"><a href="books/books.php" class="Books">Books</a></li>
-                <li class="navigation-bar"><a href="about/Contact.php" class="Contact">Contact</a></li>
-                <li class="navigation-bar"><a href="books/orders.php" class="Orders">Orders</a></li>
-                <li class="navigation-bar"><a href="FAQ/FAQ.html" class="FAQ">FAQ</a></li>
-                <li class="user-access"><a href="sign-in/sign-in.php" class="Login">Login</a>
-                <li class="user-access"><a href="sign-up/sign-up.php" class="Register">Register</a>
+                <li class="navigation-bar"><a href="Home-Page.php" class="Home">Home</a></li>
+                <li class="navigation-bar"><a href="About.php" class="About">About</a></li>
+                <li class="navigation-bar"><a href="Books.php" class="Books">Books</a></li>
+                <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
+                <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
+                <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
+                <li class="user-access"><a href="" class="Login">Login</a>
+                <li class="user-access"><a href="Register.php" class="Register">Register</a>
               </ul>
         </div>  
         
@@ -43,8 +43,8 @@
         <div class="search-bar">
           <input type="text" placeholder="Search..." class="search">
           <a href=""><i class="fa fa-search"></i></a>
-          <a href="shopping-cart/"><i class="fa fa-shopping-cart"></i></a>
-          <a href="my-account/my-account.php"><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
           <a href=""><i class="fa-solid fa-heart"></i></a>
         </div> <br>
         
@@ -53,7 +53,7 @@
     <!--Body Section-->
     <body>
       <!--Main Logo-->
-      <img class="img-fluid" src="home-page/Images/wallpaper.jpg" alt="main-logo">
+      <img class="img-fluid" src="Images/wallpaper.jpg" alt="main-logo">
       
       <!--Provide Service Icons -->
       <div class="icon-bar">
@@ -100,14 +100,14 @@
         <!--Bestseller Books-->
         <div class="bestseller-books">
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-1.jpg" />
+            <img src="./Images/bestseller/book-1.jpg" />
             <div class="details">
               <h5>LKR.1,400/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-2.jpg" />
+            <img src="./Images/bestseller/book-2.jpg" />
             <div class="details">
               <h5>LKR.900/=</h5>              
             </div>
@@ -115,7 +115,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-3.jpg" />
+            <img src="./Images/bestseller/book-3.jpg" />
             <div class="details">
               <h5>LKR.4,000/=</h5>              
             </div>
@@ -123,7 +123,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-4.jpg" />
+            <img src="./Images/bestseller/book-4.jpg" />
             <div class="details">
               <h5>LKR.1,780/=</h5>              
             </div>
@@ -131,7 +131,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-5.jpg" />
+            <img src="./Images/bestseller/book-5.jpg" />
             <div class="details">
               <h5>LKR.3,400/=</h5>              
             </div>
@@ -139,21 +139,21 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-6.jpg" />
+            <img src="./Images/bestseller/book-6.jpg" />
             <div class="details">
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-7.jpg" />
+            <img src="./Images/bestseller/book-7.jpg" />
             <div class="details">
               <h5>LKR.5,900/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-8.jpg" />
+            <img src="./Images/bestseller/book-8.jpg" />
             <div class="details">
               <h5>LKR.4,100/=</h5>              
             </div>
@@ -172,14 +172,14 @@
         <!--Bestseller Books-->
         <div class="toprated-books">
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-1.jpg" />
+            <img src="./Images/toprated/tr-1.jpg" />
             <div class="details">
               <h5>LKR.1,400/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-2.jpg" />
+            <img src="./Images/toprated/tr-2.jpg" />
             <div class="details">
               <h5>LKR.900/=</h5>              
             </div>
@@ -187,7 +187,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-3.jpg" />
+            <img src="./Images/toprated/tr-3.jpg" />
             <div class="details">
               <h5>LKR.4,000/=</h5>              
             </div>
@@ -195,7 +195,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-4.jpg" />
+            <img src="./Images/toprated/tr-4.jpg" />
             <div class="details">
               <h5>LKR.1,780/=</h5>              
             </div>
@@ -203,7 +203,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-5.jpg" />
+            <img src="./Images/toprated/tr-5.jpg" />
             <div class="details">
               <h5>LKR.3,400/=</h5>              
             </div>
@@ -211,21 +211,21 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-6.jpg" />
+            <img src="./Images/toprated/tr-6.jpg" />
             <div class="details">
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-7.jpg" />
+            <img src="./Images/toprated/tr-7.jpg" />
             <div class="details">
               <h5>LKR.5,900/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-8.jpg" />
+            <img src="./Images/toprated/tr-8.jpg" />
             <div class="details">
               <h5>LKR.4,100/=</h5>              
             </div>
@@ -234,7 +234,7 @@
       </div>  
       
       <!--Custom Javascript-->
-      <script href="home-page/Javascript/script.js"></script>
+      <script href="./Javascript/script.js"></script>
         
         
         
@@ -249,11 +249,11 @@
         <div class="row">
           <div class="col-sm-10 col-md-4">
             <!--Main Logo in White-->
-            <img src="home-page/Images/logo-white.png" alt="logo-white">
+            <img src="images/logo-white.png" alt="logo-white">
             <!--Brief about website and services-->
             <p class="text-justify">Booklr is a website for an extensive collection of  books, stationery and magazines.Not only a "one-stop shop" for book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books online.</p>
             <!--Redirect to About Us page-->
-            <a href="about/About.php" class social>Learn More About Us</a>
+            <a class social>Learn More About Us</a>
           </div>  
           
           <div class="col-xs-6 col-md-3">
@@ -269,9 +269,9 @@
           <div class="col-xs-6 col-md-2">
             <h6>KEEP IN TOUCH WITH US</h6>
             <ul class="footer-links">
-              <li><a href="www.facebook.com">Facebook</a></li>
-              <li><a href="www.twitter.com">Twitter</a></li>
-              <li><a href="www.instagram.com">Instagram</a></li>               
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Instergram</a></li>               
             </ul>
           </div>
 

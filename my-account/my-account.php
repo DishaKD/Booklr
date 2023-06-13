@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-//check customer logged in, if not redirect to sign-in page
+//Check customer logged into website, if not redirect to sign-in page
 if (!isset($_SESSION['User_Fname']) || !isset($_SESSION['User_Lname'])) {
   header("Location: ../sign-in/sign-in.php");
   exit();

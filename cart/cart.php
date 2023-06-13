@@ -66,7 +66,7 @@
                 <th></th>
             </tr>
       <?php  
-           // Fetch data from the database
+           // Fetch data from the SQL database
       // Replace the database connection details with your own
 	   $servername="localhost";
 	   $username="root";

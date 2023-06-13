@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica;
+}
+
+.form {
+    margin-left: 50%;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.updateButton {
+    width: 20%;
+    background-color: #4169E1;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    width: 20%;
+    background-color: #e01c1c;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image {
+    float: left;
+    max-width: 50%;
+}

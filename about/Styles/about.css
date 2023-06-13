@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+
+  
+  .raw {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 0.5em;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .column {
+    width: 100%;
+    padding: 5px ;
+    max-width:180px;
+    margin: auto;
+  }
+  
+.ourteam {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:bold;
+    font-size:40px;
+    color: #08013f;
+    font-weight:2px;
+  }
+  
+  .card {
+    width:100%;
+    box-shadow: 0 0 2.4em rgba(0, 0, 0, 0.1);
+    padding: 2.5em 1em;
+    border-radius: 0.6em;
+    color: rgb(38, 38, 189);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+  }
+  
+  .img-prof {
+    width: 8em;
+    height: 8em;
+    background-color: rgb(44, 121, 255);
+    padding: 0.3em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .card h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .card p {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 2em 0;
+    letter-spacing: 2px;
+  }
+  
+  .wrap h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: #08013f;
+    font-weight: bold;
+  }
+  
+  .card:hover {
+    background: linear-gradient(#c4c5c5, #7895f4);
+    color: #ffffff;
+  }
+  
+.box {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .ourmem {
+    background-color: rgb(208, 218, 219);
+  }
+  
+  .abouttext {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+  }
+  
+  .para1 {
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+    color: #2e2e2e;
+  }
+  
+  .para1 p {
+    padding: 10px;
+  }
+  
+  .para2 p {
+    padding: 10px;
+  }
+  
+  .para2 {
+    width: 100%;
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #2e2e2e;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons i {
+    margin: 0 5px;
+  }
+  

@@ -2,23 +2,43 @@
 <!DOCTYPE html></Doctype>
 <html lang=en>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale-1">
 
 
     <Head>
-        <link rel="stylesheet" href="./Styles/About_Page -Style.css">
-        <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
+         <!--Custom CSS-->
+         <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
+         <link rel="stylesheet" href="./Styles/about.css">
+        <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--Bootstrap CDN-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
+        <!--Icon Library Font Awesome-->
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
+        <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
 
     <!--Header-->
     <Header class="page header">
         <!--Logo-->  
-        <img class="header_Logo"src="" alt="Booklr">
+        <img class="logo"src="Images/logo.png" alt="Booklr">
+
+        <!--Navigation Bar-->        
+        <div class="navigation-bar">
+            <ul class="navigation-bar">
+                <li class="navigation-bar"><a href="Home-Page.php" class="Home">Home</a></li>
+                <li class="navigation-bar"><a href="About.php" class="About">About</a></li>
+                <li class="navigation-bar"><a href="Books.php" class="Books">Books</a></li>
+                <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
+                <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
+                <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
+                <li class="user-access"><a href="" class="Login">Login</a>
+                <li class="user-access"><a href="Register.php" class="Register">Register</a>
+              </ul>
+        </div>  
         
         <!--Search Bar-->
         <div class="search-bar">
@@ -27,26 +47,13 @@
           <a href=""><i class="fa fa-shopping-cart"></i></a>
           <a href=""><i class="fa-solid fa-user"></i></a>
           <a href=""><i class="fa-solid fa-heart"></i></a>
-        </div>
-
-        <!--Navigation Bar-->        
-        <div class="navigation-bar">
-            <ul class="navigation-bar">
-                <li class="navigation-bar"><a href="home.html" class="Home">Home</a></li>
-                <li class="navigation-bar"><a href="About.php" class="About">About</a></li>
-                <li class="navigation-bar"><a href="Books.php" class="Books">Books</a></li>
-                <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
-                <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
-                <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-                <li class="user-access"><a href="Login.php" class="Login">Login</a>
-                <li class="user-access"><a href="Register.php" class="Register">Register</a>
-              </ul>
-        </div>    
+        </div> <br>
+        
     </Header>
-        <body>
+    <body>
             <div class="wrap">
+            <img class="img-fluid" src="Images/cover.jpg" alt="main-logo">
                 <center>
-                    <img src="image.jpg" alt="about.png">
                     <h1>About Us</h1>
                 </center>
             </div>
@@ -75,19 +82,18 @@
                     your trusted companion in your reading endeavors. Happy reading!</p>
             </div>
             </div>  
-            <hr>
-            <!--our members-->>
+            <!--our members-->
             <section class="ourmem">
-                <div class="row">
-                    <h1 class="ourteam">OUR MEMBERS</h1>
+                <div class="raw">
+                    <h1 class="ourteam">our team</h1>
                 </div>
                 <div class="box">
                 <!--column 1-->
-                <div class="row">
+                <div class="raw">
                     <div class="column">
                         <div class="card">
                             <div class="img-prof">
-                                <img src="../../img/p2.jpg" alt="profile pic">
+                                <img src="images/p4.jpg" alt="profile pic">
                             </div>
                             <h3>Dishal Dasanayake</h3>
                             <p>Leader</p>
@@ -104,11 +110,11 @@
                 </div>
 
                 <!--column 2-->
-                <div class="row">
+                <div class="raw">
                     <div class="column">
                         <div class="card">
                             <div class="img-prof">
-                                <img src="../../img/p2.jpg" alt="profile pic">
+                                <img src="images/p4.jpg" alt="profile pic">
                             </div>
                             <h3>Mihiranga Fernando</h3>
                             <p>member</p>
@@ -125,11 +131,11 @@
                 </div>
 
                 <!--column 3-->
-                <div class="row">
+                <div class="raw">
                     <div class="column">
                         <div class="card">
                             <div class="img-prof">
-                                <img src="../../img/p2.jpg" alt="profile pic">
+                                <img src="images/p4.jpg" alt="profile pic">
                             </div>
                             <h3>Tharindu Raveen</h3>
                             <p>member</p>
@@ -146,11 +152,11 @@
                 </div>
 
                 <!--column 4-->
-                <div class="row">
+                <div class="raw">
                     <div class="column">
                         <div class="card">
                             <div class="img-prof">
-                                <img src="../../img/p2.jpg" alt="profile pic">
+                                <img src="images/p4.jpg" alt="profile pic">
                             </div>
                             <h3>Kavindu Dilshan</h3>
                             <p>Member</p>
@@ -167,11 +173,11 @@
                 </div>
 
                 <!--column 5-->
-                <div class="row">
+                <div class="raw">
                     <div class="column">
                         <div class="card">
                             <div class="img-prof">
-                                <img src="../../img/p2.jpg" alt="profile pic">
+                                <img src="images/p4.jpg" alt="profile pic">
                             </div>
                             <h3>Sachith Nimendra</h3>
                             <p>Member</p>
@@ -187,20 +193,19 @@
                     </div>
                 </div>
             </div>    
-            </section>  
+            </section> 
 
-            
-        </body>
-
-        
-
-        <!-- Site footer -->
-    <footer class="site-footer">
+</body>
+ <!-- Site footer -->
+ <footer class="site-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-10 col-md-4">
+            <!--Main Logo in White-->
             <img src="images/logo-white.png" alt="logo-white">
-            <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+            <!--Brief about website and services-->
+            <p class="text-justify">Booklr is a website for an extensive collection of  books, stationery and magazines.Not only a "one-stop shop" for book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books online.</p>
+            <!--Redirect to About Us page-->
             <a class social>Learn More About Us</a>
           </div>  
           
@@ -208,9 +213,9 @@
             <h6>OUR MAIN OFFICE</h6>
             <ul class="footer-links">
               <li>Address</li>
-              <li>P.O.BOx:xxx</li>
-              <li>Phone:(+94) xx xxx xxxx</li>
-              <li>E-Mail:info@booklr.com</li>              
+              <li>P.O.BOx: 365/A</li>
+              <li>Phone: (+94) 34 6786543</li>
+              <li>E-Mail: info@booklr.com</li>              
             </ul>
           </div>
 
@@ -227,7 +232,7 @@
             <h6>INFORMATIONS</h6>
             <table class ="footer-table">
               <tr>
-                <td>Contact Us</td>
+                <td>About Us</td>
                 <td>Terms & Conditions</td>
               </tr>
               <tr>

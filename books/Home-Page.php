@@ -23,16 +23,7 @@
     <!--Header-->
     <Header class="page header">
         <!--Logo-->  
-        <img class="header_Logo"src="" alt="Booklr">
-        
-        <!--Search Bar-->
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." class="search">
-          <a href=""><i class="fa fa-search"></i></a>
-          <a href=""><i class="fa fa-shopping-cart"></i></a>
-          <a href=""><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-heart"></i></a>
-        </div>
+        <img class="logo"src="Images/logo.png" alt="Booklr">
 
         <!--Navigation Bar-->        
         <div class="navigation-bar">
@@ -46,13 +37,23 @@
                 <li class="user-access"><a href="" class="Login">Login</a>
                 <li class="user-access"><a href="Register.php" class="Register">Register</a>
               </ul>
-        </div>    
+        </div>  
+        
+        <!--Search Bar-->
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search">
+          <a href=""><i class="fa fa-search"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-heart"></i></a>
+        </div> <br>
+        
     </Header>
     
     <!--Body Section-->
     <body>
       <!--Main Logo-->
-      <img class="img-fluid" src="./Images/main_logo-1.jpg" alt="main-logo">
+      <img class="img-fluid" src="Images/wallpaper.jpg" alt="main-logo">
       
       <!--Provide Service Icons -->
       <div class="icon-bar">
@@ -250,7 +251,7 @@
             <!--Main Logo in White-->
             <img src="images/logo-white.png" alt="logo-white">
             <!--Brief about website and services-->
-            <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+            <p class="text-justify">Booklr is a website for an extensive collection of  books, stationery and magazines.Not only a "one-stop shop" for book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books online.</p>
             <!--Redirect to About Us page-->
             <a class social>Learn More About Us</a>
           </div>  
@@ -259,9 +260,9 @@
             <h6>OUR MAIN OFFICE</h6>
             <ul class="footer-links">
               <li>Address</li>
-              <li>P.O.BOx:xxx</li>
-              <li>Phone:(+94) xx xxx xxxx</li>
-              <li>E-Mail:info@booklr.com</li>              
+              <li>P.O.BOx: 365/A</li>
+              <li>Phone: (+94) 34 6786543</li>
+              <li>E-Mail: info@booklr.com</li>              
             </ul>
           </div>
 
@@ -278,7 +279,7 @@
             <h6>INFORMATIONS</h6>
             <table class ="footer-table">
               <tr>
-                <td>Contact Us</td>
+                <td>About Us</td>
                 <td>Terms & Conditions</td>
               </tr>
               <tr>

@@ -1,0 +1,10 @@
+Home: http://localhost/Booklr/index.html
+Sign-Up: http://localhost/Booklr/sign-up/sign-up.php
+Sign-In: http://localhost/Booklr/sign-in/sign-in.php
+My Account: http://localhost/Booklr/my-account/my-account.php
+About Us: http://localhost/Booklr/about/About.php
+Contact Us: http://localhost/Booklr/about/Contact.php
+Books: http://localhost/Booklr/books/books.php
+Orders: http://localhost/Booklr/books/orders.php
+Cart: http://localhost/Booklr/cart/cart.php
+FAQ: http://localhost/Booklr/FAQ/FAQ.html

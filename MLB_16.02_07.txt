@@ -1,0 +1,38 @@
+Project Group ID: MLB_16.02_07
+Batch No: 16.02
+Topic: Online Book Store
+Project Link: 
+
+
+
+Group member details
+
+Member Id: IT22577238
+Member Name: Dasanayake D.K
+Contact No: 075-0618350
+Email Address: it22577238@my.sliit.lk
+Implemented Functions: Home Page, Header and Footer
+
+Member Id: IT22576866
+Member Name: Wasala W.M.S.N
+Contact No: 076-4874911
+Email Address: it22576866@my.sliit.lk
+Implemented Functions: Shopping Cart, Sign In, Forget Password
+
+Member Id: IT22583864
+Member Name: De Silva G.P.T.R
+Contact No: 078-6461643
+Email Address: it22583864@my.sliit.lk
+Implemented Functions: Books Page, Orders Page
+
+Member Id: IT22581570
+Member Name: Jayalath K.M.K.D
+Contact No: 077-9753932
+Email Address: it22581570@my.sliit.lk
+Implemented Functions: Sign Up, FAQ, My Account
+
+Member Id: IT22585394
+Member Name: Fernando L.H.M.H
+Contact No: 071-9223207
+Email Address: it22585394@my.sliit.lk
+Implemented Functions: About Us, Contact Us

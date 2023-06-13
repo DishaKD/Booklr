@@ -1,4 +1,4 @@
-    <!-- Signin part-->
+    <!-- Signin Section-->
     <?php 
     include_once('config/sign-in-config.php');
     ?>

@@ -42,7 +42,7 @@
 
 <body>
 
-  <!--Sign Up Form-->
+  <!--Sign Up Section-->
   <div>
   <img class="image" src="images/sign-up.jpg">
 

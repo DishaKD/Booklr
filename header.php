@@ -27,7 +27,7 @@
         <!--Navigation Bar-->        
         <div class="navigation-bar">
             <ul class="navigation-bar">
-                <li class="navigation-bar"><a href="index.html" class="Home">Home</a></li>
+                <li class="navigation-bar"><a href="index.php" class="Home">Home</a></li>
                 <li class="navigation-bar"><a href="about/About.php" class="About">About</a></li>
                 <li class="navigation-bar"><a href="books/books.php" class="Books">Books</a></li>
                 <li class="navigation-bar"><a href="about/Contact.php" class="Contact">Contact</a></li>

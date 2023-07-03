@@ -20,35 +20,9 @@
         <title>Booklr</title>
     </Head>
 
-    <!--Header-->
-    <Header class="page header">
-        <!--Logo-->  
-        <img class="logo"src="home-page/Images/logo.png" alt="Booklr">
 
-        <!--Navigation Bar-->        
-        <div class="navigation-bar">
-            <ul class="navigation-bar">
-                <li class="navigation-bar"><a href="index.html" class="Home">Home</a></li>
-                <li class="navigation-bar"><a href="about/About.php" class="About">About</a></li>
-                <li class="navigation-bar"><a href="books/books.php" class="Books">Books</a></li>
-                <li class="navigation-bar"><a href="about/Contact.php" class="Contact">Contact</a></li>
-                <li class="navigation-bar"><a href="books/orders.php" class="Orders">Orders</a></li>
-                <li class="navigation-bar"><a href="FAQ/FAQ.html" class="FAQ">FAQ</a></li>
-                <li class="user-access"><a href="sign-in/sign-in.php" class="Login">Login</a>
-                <li class="user-access"><a href="sign-up/sign-up.php" class="Register">Register</a>
-              </ul>
-        </div>  
-        
-        <!--Search Bar-->
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." class="search">
-          <a href=""><i class="fa fa-search"></i></a>
-          <a href="shopping-cart/"><i class="fa fa-shopping-cart"></i></a>
-          <a href="my-account/my-account.php"><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-heart"></i></a>
-        </div> <br>
-        
-    </Header>
+    <?php include "./header.php"?>
+
     
     <!--Body Section-->
     <body>
@@ -237,69 +211,7 @@
       <script href="home-page/Javascript/script.js"></script>
         
         
-        
-
+    <?php include "./footer.php"?>   
       
-      
-
     </body>
-    <!-- Site footer -->
-    <footer class="site-footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-10 col-md-4">
-            <!--Main Logo in White-->
-            <img src="home-page/Images/logo-white.png" alt="logo-white">
-            <!--Brief about website and services-->
-            <p class="text-justify">Booklr is a website for an extensive collection of  books, stationery and magazines.Not only a "one-stop shop" for book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books online.</p>
-            <!--Redirect to About Us page-->
-            <a href="about/About.php" class social>Learn More About Us</a>
-          </div>  
-          
-          <div class="col-xs-6 col-md-3">
-            <h6>OUR MAIN OFFICE</h6>
-            <ul class="footer-links">
-              <li>Address</li>
-              <li>P.O.BOx: 365/A</li>
-              <li>Phone: (+94) 34 6786543</li>
-              <li>E-Mail: info@booklr.com</li>              
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-2">
-            <h6>KEEP IN TOUCH WITH US</h6>
-            <ul class="footer-links">
-              <li><a href="www.facebook.com">Facebook</a></li>
-              <li><a href="www.twitter.com">Twitter</a></li>
-              <li><a href="www.instagram.com">Instagram</a></li>               
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>INFORMATIONS</h6>
-            <table class ="footer-table">
-              <tr>
-                <td>About Us</td>
-                <td>Terms & Conditions</td>
-              </tr>
-              <tr>
-                <td>Contact Us</td>
-                <td>My Account</td>
-              </tr>
-              <tr>
-                <td>FAQ</td>
-                <td>Blog</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <hr>
-      </div>
-      
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12 col-sm-6 ">
-            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by <a href="#">Booklr</a>.</p>
-          </div>
-    </footer>
 </html>

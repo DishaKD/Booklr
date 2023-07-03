@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-sm-10 col-md-4">
             <!--Main Logo in White-->
-            <img src="home-page/Images/logo-white.png" alt="logo-white">
+            <img src="Images/Header & Footer/logo-white.png" alt="logo-white">
             <!--Brief about website and services-->
             <p class="text-justify">Booklr is a website for an extensive collection of  books, stationery and magazines.Not only a "one-stop shop" for book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books online.</p>
             <!--Redirect to About Us page-->

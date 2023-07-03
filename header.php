@@ -22,13 +22,22 @@
     <!--Header-->
     <Header class="page header">
         <!--Logo-->  
-        <img class="logo"src="home-page/Images/logo.png" alt="Booklr">
+        <img class="logo"src="Images/Header & Footer/logo.png" alt="Booklr">
+
+         <!--Search Bar-->
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search">
+          <a href=""><i class="fa fa-search"></i></a>
+          <a href="shopping-cart/"><i class="fa fa-shopping-cart"></i></a>
+          <a href="my-account/my-account.php"><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-heart"></i></a>
+        </div>
 
         <!--Navigation Bar-->        
         <div class="navigation-bar">
             <ul class="navigation-bar">
                 <li class="navigation-bar"><a href="index.php" class="Home">Home</a></li>
-                <li class="navigation-bar"><a href="about/About.php" class="About">About</a></li>
+                <li class="navigation-bar"><a href="About.php" class="About">About</a></li>
                 <li class="navigation-bar"><a href="books/books.php" class="Books">Books</a></li>
                 <li class="navigation-bar"><a href="about/Contact.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="books/orders.php" class="Orders">Orders</a></li>
@@ -38,14 +47,7 @@
               </ul>
         </div>  
         
-        <!--Search Bar-->
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." class="search">
-          <a href=""><i class="fa fa-search"></i></a>
-          <a href="shopping-cart/"><i class="fa fa-shopping-cart"></i></a>
-          <a href="my-account/my-account.php"><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-heart"></i></a>
-        </div> <br>        
+        <br>        
     </Header>
 </body>
 </html>

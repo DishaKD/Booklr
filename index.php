@@ -8,7 +8,7 @@
 
     <Head>
         <!--Custom CSS-->
-        <link rel="stylesheet" href="home-page/Styles/Home_Page - Style.css">
+        <link rel="stylesheet" href="Cascade Sheets/Home_Page - Style.css">
         <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Bootstrap CDN-->
@@ -27,7 +27,7 @@
     <!--Body Section-->
     <body>
       <!--Main Logo-->
-      <img class="img-fluid" src="home-page/Images/wallpaper.jpg" alt="main-logo">
+      <img class="img-fluid" src="Images/Home Page/wallpaper.jpg" alt="main-logo">
       
       <!--Provide Service Icons -->
       <div class="icon-bar">
@@ -74,14 +74,14 @@
         <!--Bestseller Books-->
         <div class="bestseller-books">
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-1.jpg" />
+            <img src="Images/Home Page/bestseller/book-1.jpg" />
             <div class="details">
               <h5>LKR.1,400/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-2.jpg" />
+            <img src="Images/Home Page/bestseller/book-2.jpg" />
             <div class="details">
               <h5>LKR.900/=</h5>              
             </div>
@@ -89,7 +89,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-3.jpg" />
+            <img src="Images/Home Page/bestseller/book-3.jpg" />
             <div class="details">
               <h5>LKR.4,000/=</h5>              
             </div>
@@ -97,7 +97,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-4.jpg" />
+            <img src="Images/Home Page/bestseller/book-4.jpg" />
             <div class="details">
               <h5>LKR.1,780/=</h5>              
             </div>
@@ -105,7 +105,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-5.jpg" />
+            <img src="Images/Home Page/bestseller/book-5.jpg" />
             <div class="details">
               <h5>LKR.3,400/=</h5>              
             </div>
@@ -113,21 +113,21 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-6.jpg" />
+            <img src="Images/Home Page/bestseller/book-6.jpg" />
             <div class="details">
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
 
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-7.jpg" />
+            <img src="Images/Home Page/bestseller/book-7.jpg" />
             <div class="details">
               <h5>LKR.5,900/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/bestseller/book-8.jpg" />
+            <img src="Images/Home Page/bestseller/book-8.jpg" />
             <div class="details">
               <h5>LKR.4,100/=</h5>              
             </div>
@@ -146,14 +146,14 @@
         <!--Bestseller Books-->
         <div class="toprated-books">
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-1.jpg" />
+            <img src="Images/Home Page/toprated/tr-1.jpg" />
             <div class="details">
               <h5>LKR.1,400/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-2.jpg" />
+            <img src="Images/Home Page/toprated/tr-2.jpg" />
             <div class="details">
               <h5>LKR.900/=</h5>              
             </div>
@@ -161,7 +161,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-3.jpg" />
+            <img src="Images/Home Page/toprated/tr-3.jpg" />
             <div class="details">
               <h5>LKR.4,000/=</h5>              
             </div>
@@ -169,7 +169,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-4.jpg" />
+            <img src="Images/Home Page/toprated/tr-4.jpg" />
             <div class="details">
               <h5>LKR.1,780/=</h5>              
             </div>
@@ -177,7 +177,7 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-5.jpg" />
+            <img src="Images/Home Page/toprated/tr-5.jpg" />
             <div class="details">
               <h5>LKR.3,400/=</h5>              
             </div>
@@ -185,30 +185,27 @@
           
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-6.jpg" />
+            <img src="Images/Home Page/toprated/tr-6.jpg" />
             <div class="details">
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
 
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-7.jpg" />
+            <img src="Images/Home Page/toprated/tr-7.jpg" />
             <div class="details">
               <h5>LKR.5,900/=</h5>              
             </div>
           </a>
           
           <a href="#Books.php">
-            <img src="home-page/Images/toprated/tr-8.jpg" />
+            <img src="Images/Home Page/toprated/tr-8.jpg" />
             <div class="details">
               <h5>LKR.4,100/=</h5>              
             </div>
           </a>
         </div>
       </div>  
-      
-      <!--Custom Javascript-->
-      <script href="home-page/Javascript/script.js"></script>
         
         
     <?php include "./footer.php"?>   

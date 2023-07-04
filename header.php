@@ -38,9 +38,9 @@
             <ul class="navigation-bar">
                 <li class="navigation-bar"><a href="index.php" class="Home">Home</a></li>
                 <li class="navigation-bar"><a href="About_us.php" class="About">About</a></li>
-                <li class="navigation-bar"><a href="books/books.php" class="Books">Books</a></li>
+                <li class="navigation-bar"><a href="books.php" class="Books">Books</a></li>
                 <li class="navigation-bar"><a href="Contact_us.php" class="Contact">Contact</a></li>
-                <li class="navigation-bar"><a href="books/orders.php" class="Orders">Orders</a></li>
+                <li class="navigation-bar"><a href="orders.php" class="Orders">Orders</a></li>
                 <li class="navigation-bar"><a href="FAQ/FAQ.html" class="FAQ">FAQ</a></li>
                 <li class="user-access"><a href="sign-in/sign-in.php" class="Login">Login</a>
                 <li class="user-access"><a href="sign-up/sign-up.php" class="Register">Register</a>

@@ -40,7 +40,7 @@
 	   $servername="localhost";
 	   $username="root";
 	   $password="";
-	   $dbname="books";
+	   $dbname="booklr";
 	   
 	   //create connection
 	   $conn=new mysqli($servername,$username,$password,$dbname);
@@ -52,7 +52,7 @@
 	   }
 
 	  
-            $sql= "SELECT * FROM books";
+            $sql= "SELECT * FROM cart";
             $result= mysqli_query ($conn,$sql);			
             $subtotal = 0;
 			while ($row=$result->fetch_assoc()){
@@ -60,15 +60,14 @@
 			echo "<tr>
                 <td>
                     <div class='cart-info'>
-                        <img class='book' src='images/book1.jpeg'>
+                        <img class='book' src='.jpeg'>
                         <div>
-                            <p>".$row['book name']."</p>
-                            <small>".$row['author']."</small>
+                            <p>".$row['book_name']."</p>
                         </div>
                     </div>
                 </td>
                 <form method='POST' action=''>
-			   <td><input class='quantity".$row['book_ID']."' onchange='changequantity(`".$row['book_ID']."`)' type='number' name='quantity' min='0' value='2'></td>
+			   <td><input class='quantity".$row['book_ID']."' onchange='changequantity(`".$row['book_ID']."`)' type='number' name='quantity' min='0' value='1'></td>
                 <td class='price".$row['book_ID']."'>".$row['price']."</td></form>";
 				
     
@@ -99,11 +98,12 @@
           </tr>
       </table>
 
-  </div>";	
+  </div>";?>	
 		
 
     
 
-         include "./footer.php"?>
+      
     </body>
+      <?php include "./footer.php"?>
 </html>

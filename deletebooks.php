@@ -5,7 +5,7 @@
     $recordId = $_GET['id'];
 
     // Prepare the delete statement
-    $sql = "DELETE FROM books WHERE book_ID = $recordId";
+    $sql = "DELETE FROM cart WHERE book_ID = $recordId";
 
     // Execute the delete statement
     if (mysqli_query($conn, $sql)) {

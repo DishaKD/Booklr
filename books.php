@@ -9,51 +9,15 @@
 
     <Head>
         <!--Custom CSS-->
-        <link rel="stylesheet" href="./Styles/Home_Page - Style.css">
-		<link rel="stylesheet" href="books.css">
-
-        <!--Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <!--Bootstrap CDN-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
-        <!--Icon Library Font Awesome-->
-        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
-        <!--Title of the webpage-->
+        <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">
+		<link rel="stylesheet" href="Cascade Sheets/books.css">       
         <title>Booklr</title>
-    </Head>
+    </Head>  
 
-    <!--Header-->
-    <Header class="page header">
-        <!--Logo-->  
-        <img class="logo"src="Images/logo.png" alt="Booklr">
+    <body>
+        <?php include "./header.php"?>
 
-        <!--Navigation Bar-->        
-        <div class="navigation-bar">
-            <ul class="navigation-bar">
-                <li class="navigation-bar"><a href="Home-Page.php" class="Home">Home</a></li>
-                <li class="navigation-bar"><a href="About.php" class="About">About</a></li>
-                <li class="navigation-bar"><a href="Books.php" class="Books">Books</a></li>
-                <li class="navigation-bar"><a href="Contact.php" class="Contact">Contact</a></li>
-                <li class="navigation-bar"><a href="Orders.php" class="Orders">Orders</a></li>
-                <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
-                <li class="user-access"><a href="" class="Login">Login</a>
-                <li class="user-access"><a href="Register.php" class="Register">Register</a>
-              </ul>
-        </div>  
-        
-        <!--Search Bar-->
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." class="search">
-          <a href=""><i class="fa fa-search"></i></a>
-          <a href=""><i class="fa fa-shopping-cart"></i></a>
-          <a href=""><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-heart"></i></a>
-        </div><br>       
-    </Header>
-  
-
-  <div class="book-list">
+      <div class="book-list">
     <?php
       // Fetch data from the database
       // Replace the database connection details with your own
@@ -173,56 +137,16 @@
 		   }
 	      
 	 echo "</div>";
-	 
-	
-	
-	  		  
-      
-
-
-
       $conn->close();
     ?>
-	</div>
- 
+	</div> 
+
+    <?php include "./footer.php"?>
+
+    </body>
+
+
     
 
-        <!--Footer-->
-        <footer class="footer">
-            <div class="footer-left">
-                <img src="images/logo-white.png" alt="logo-white">
-                <p>Lorem ipsum dolor, sit amet consectetur<br>
-                 adipisicing elit. Quam repellendus sunt praesentium <br>
-                  aspernatur iure molestias.</p>
-                <div class="socials">
-                    <a class="paraText" href="about.html">Learn More About Us</a>
-                </div>
-            </div>
-            <ul class="footer-right">
-                <li>
-                    <h2>OUR MAIN OFFICE</h2>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                </li>
-                <li>
-                    <h2>KEEP IN TOUCH WITH US</h2>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                </li>
-                <li>
-                    <h2>LINKS</h2>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                    <p>Sample</p>
-                </li>
-            </ul>
-            <div class="footer-bottom">
-                <p>&copy; 2023 Booklr.All Rights Resereved.</p>
-            </div>
-        </footer>
+
 </html>

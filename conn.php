@@ -8,7 +8,7 @@
     //define password
     $password = "";
     //define database
-    $database = "books";
+    $database = "booklr";
 
     $conn = mysqli_connect($host, $username, $password, $database);
 

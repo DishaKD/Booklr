@@ -76,7 +76,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 col-sm-6 ">
-            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by <a href="#">Booklr</a>.</p>
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by <a href="index.php">Booklr</a>.</p>
           </div>
     </footer>
     </body>

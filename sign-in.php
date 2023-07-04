@@ -28,7 +28,7 @@
           $_SESSION['User_Address'] = $user['Address'];
           $_SESSION['User_DOB'] = $user['DOB'];
           $_SESSION['User_Password'] = $user['Password'];
-          header("Location: ../my-account/my-account.php");
+          header("Location:my-account.php");
         }
         else{
           echo '<script type="text/javascript">

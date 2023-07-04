@@ -28,7 +28,7 @@
 
   if ($con->query($sql) === true){
     echo "<script>alert('Registration Completed.')</script>";
-    echo "<script>window.location.href='../sign-in/sign-in.php';</script>";
+    echo "<script>window.location.href='sign-in.php';</script>";
     exit();
   }
 

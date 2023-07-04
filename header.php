@@ -11,7 +11,7 @@
         <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Bootstrap CDN-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="styelsheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>        
         <!--Icon Library Font Awesome-->
         <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
@@ -20,18 +20,38 @@
     </Head>
 <body>
     <!--Header-->
-    <Header class="page header">
-        <!--Logo-->  
-        <img class="logo"src="Images/Header & Footer/logo.png" alt="Booklr">
-
-         <!--Search Bar-->
-        <div class="search-bar">
-          <input type="text" placeholder="Search..." class="search">
-          <a href=""><i class="fa fa-search"></i></a>
-          <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
-          <a href="my-account.php"><i class="fa-solid fa-user"></i></a>
-          <a href=""><i class="fa-solid fa-heart"></i></a>
-        </div>
+    <Header class="header">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a href="index.php"><img class="logo" src="Images/Header & Footer/logo.png" alt="Booklr"></a>
+                <form class="d-flex input-group w-auto">
+                    <input type="search" class="form-control rounded" placeholder="Search Book" aria-label="Search" aria-describedby="search-addon"/>
+                    <span class="input-group-text border-0" id="search-addon">
+                        <a href=""><i class="fas fa-search"></i></a>                           
+                    </span>
+                    <ul class="navbar-nav d-flex flex-row me-10">
+                        <li class="nav-item me-3 me-lg-3">
+                            <a class="nav-link" href="cart.php">
+                                <i class="fa-solid fa-cart-shopping" style="color: #4482ee;"></i>
+                            </a>
+                        </li>
+                        <!---->
+                        <li class="nav-item me-3 me-lg-3">
+                            <a class="nav-link" href="my-account.php">
+                                <i class="fa-regular fa-user" style="color: #266de8;"></i>
+                            </a>
+                        </li>
+                        <!---->
+                        <li class="nav-item me-3 me-lg-3">
+                            <a class="nav-link" href="">
+                                <i class="fa-regular fa-heart" style="color: #2c73ed;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+                
+            </div>
+        </nav>
 
         <!--Navigation Bar-->        
         <div class="navigation-bar">

@@ -1,5 +1,5 @@
 <?php
-    include_once ('inc/conn.php');
+    include_once ('conn.php');
 
     // Get the record ID to delete from the query string
     $recordId = $_GET['id'];

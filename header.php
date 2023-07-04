@@ -28,7 +28,7 @@
         <div class="search-bar">
           <input type="text" placeholder="Search..." class="search">
           <a href=""><i class="fa fa-search"></i></a>
-          <a href="shopping-cart/"><i class="fa fa-shopping-cart"></i></a>
+          <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
           <a href="my-account/my-account.php"><i class="fa-solid fa-user"></i></a>
           <a href=""><i class="fa-solid fa-heart"></i></a>
         </div>

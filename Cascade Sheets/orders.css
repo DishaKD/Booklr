@@ -6,104 +6,17 @@ body {
   display: grid;
 }
 
-/*Search Box*/
-.boxContrainer {
-  margin-left: auto;
-  margin-right: 10px;
-  position: relative;
-  width: 280px;
-  height: 35px;
-  border: 2px solid #4169e1;
-  padding: 0px 10px;
-  border-radius: 50px;
-}
-
-.elementsContrainer {
-  width: 100%;
-  height: 100%;
-  vertical-align: middle;
-}
-
-.search {
-  border: none;
-  height: 100%;
-  width: 100%;
-  padding: 0px 5px;
-  border-radius: 50px;
-  font-size: 16px;
-  font-family: Helvetica;
-  font-weight: 500;
-}
-
-.search:focus {
-  outline: none;
-}
-
-.material-icons {
-  font-size: 25px;
-  color: #4169e1;
-}
-
-/*Navigation Bar*/
-.navigation-bar ul {
-  list-style-type: none;
-  margin-top: 10px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #4169e1;
-  font-family: Helvetica;
-}
-
-.navigation-bar li {
-  float: left;
-}
-
-.navigation-bar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navigation-bar li a:hover {
-  background-color: #18213f;
-}
-
-/*Footer*/
-footer {
-  padding: 50px;
-  color: #fff;
-  background-color: #18213f;
-  width: 100%;
-  height: 100%;
-}
-
-.footer-right {
-  margin: 0px;
-  list-style-type: none;
-  font-size: 14px;
-  padding: 0px 0px 10px 0px;
-  display: flex;
-  float: right;
-  transform: translateY(-130px);
-}
-
-.footer-right li {
-  padding: 0px 30px 5px 0px;
-}
-
 .orderlist {
   background-color: #f2f2f2;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
-    margin: auto;
-    width: 700px;
-    max-width: 600px;
-    border-radius: 20px;
+  margin: auto;
+  width: 700px;
+  max-width: 600px;
+  border-radius: 20px;
 }
-}
+
 .orders {
   flex: 25%;
   padding: 0 16px;
@@ -113,25 +26,25 @@ span.price {
   color: blue;
 }
 
- .orders{
-    margin-bottom: 20px;
-  }
-  
- h1{
-	 text-align:center;
- }
+.orders {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
 .orderlist img {
-      width: 100px;
-      height: auto;
-	   border-radius: 7px; 
-    }
-.orderlist span{
-	padding:10px;
-	text-align:center;
+  width: 100px;
+  height: auto;
+  border-radius: 7px;
+}
+.orderlist span {
+  padding: 10px;
+  text-align: center;
 }
 
 .orderlist button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -139,16 +52,13 @@ span.price {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  
 }
 
-
-.orderlist input{
-            float:right;
-            bottom: 1px;
- 
+.orderlist input {
+  float: right;
+  bottom: 1px;
 }
 
-.msg{
-	text-align: center;
+.msg {
+  text-align: center;
 }

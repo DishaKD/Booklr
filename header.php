@@ -29,7 +29,7 @@
           <input type="text" placeholder="Search..." class="search">
           <a href=""><i class="fa fa-search"></i></a>
           <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
-          <a href="my-account/my-account.php"><i class="fa-solid fa-user"></i></a>
+          <a href="my-account.php"><i class="fa-solid fa-user"></i></a>
           <a href=""><i class="fa-solid fa-heart"></i></a>
         </div>
 
@@ -41,9 +41,9 @@
                 <li class="navigation-bar"><a href="books.php" class="Books">Books</a></li>
                 <li class="navigation-bar"><a href="Contact_us.php" class="Contact">Contact</a></li>
                 <li class="navigation-bar"><a href="orders.php" class="Orders">Orders</a></li>
-                <li class="navigation-bar"><a href="FAQ/FAQ.html" class="FAQ">FAQ</a></li>
-                <li class="user-access"><a href="sign-in/sign-in.php" class="Login">Login</a>
-                <li class="user-access"><a href="sign-up/sign-up.php" class="Register">Register</a>
+                <li class="navigation-bar"><a href="FAQ.php" class="FAQ">FAQ</a></li>
+                <li class="user-access"><a href="sign-in.php" class="Login">Login</a>
+                <li class="user-access"><a href="sign-up.php" class="Register">Register</a>
               </ul>
         </div>  
         

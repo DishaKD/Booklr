@@ -1,6 +1,6 @@
 <?php
 
-  include_once 'config/sign-up-config.php';
+  include_once 'sign-up-config.php';
 
   //getting form data
   $F_name = $_POST['F_name'];

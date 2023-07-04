@@ -9,7 +9,7 @@
     <Head>
          <!--Custom CSS-->
          <link rel="stylesheet" href="./Cascade Sheets/about.css"> 
-         <link rel="stylesheet" href="./Cascade Sheets/Home_Page - Style.css">                                                                                     
+         <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">                                                                                   
         <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>

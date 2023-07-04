@@ -8,7 +8,7 @@
 
     <Head>
         <!--Custom CSS-->
-        <link rel="stylesheet" href="home-page/Styles/Home_Page - Style.css">
+        <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">
         <!--Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Bootstrap CDN-->

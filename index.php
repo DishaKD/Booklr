@@ -3,29 +3,41 @@
 <html lang=en>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale-1">
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <Head>
         <!--Custom CSS-->
         <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">
         <link rel="stylesheet" href="Cascade Sheets/Home_Page - Style.css">
         <!--Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!--Bootstrap CDN-->    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
         <!--Icon Library Font Awesome-->
         <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
         <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
-
-
-    <?php include "./header.php"?>
-
-    
+        
     <!--Body Section-->
     <body>
-      <!--Main Logo-->
-      <img class="img-fluid" src="Images/Home Page/wallpaper.jpg" alt="main-logo">
+      <!--Include Header-->
+      <?php include "./header.php"?>
+      
+      <!--Main Image Slider-->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Images/Home Page/wallpaper.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/Home Page/wallpaper.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Images/Home Page/wallpaper.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
       
       <!--Provide Service Icons -->
       <div class="icon-bar">
@@ -36,7 +48,7 @@
             <p>Order over 5000 rupees</p>
           </div>
         </div>
-
+        
         <div class="icons">
           <i class="fa-solid fa-file-shield fa-2xl"></i>
           <div class="description">
@@ -203,10 +215,20 @@
             </div>
           </a>
         </div>
-      </div>  
-        
-        
-    <?php include "./footer.php"?>   
+      </div> 
+      <br><br><br><br><br><br>
       
+      <!--Review section-->
+      <h2 class="text-center">OUR HAPPY CUSTOMERS</h2>
+
+
+        
+    <?php include "./footer.php"?>  
+    
+    <!--Bootstrap Java Script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
     </body>
 </html>

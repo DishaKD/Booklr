@@ -84,14 +84,14 @@
 
         <!--Bestseller Books-->
         <div class="bestseller-books">
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-1.jpg" />
             <div class="details">
               <h5>LKR.1,400/=</h5>              
             </div>
           </a>
           
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-2.jpg" />
             <div class="details">
               <h5>LKR.900/=</h5>              
@@ -99,7 +99,7 @@
           </a>
           
 
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-3.jpg" />
             <div class="details">
               <h5>LKR.4,000/=</h5>              
@@ -107,7 +107,7 @@
           </a>
           
 
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-4.jpg" />
             <div class="details">
               <h5>LKR.1,780/=</h5>              
@@ -115,7 +115,7 @@
           </a>
           
 
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-5.jpg" />
             <div class="details">
               <h5>LKR.3,400/=</h5>              
@@ -123,21 +123,21 @@
           </a>
           
 
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-6.jpg" />
             <div class="details">
               <h5>LKR.2,900/=</h5>              
             </div>
           </a>
 
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-7.jpg" />
             <div class="details">
               <h5>LKR.5,900/=</h5>              
             </div>
           </a>
           
-          <a href="#Books.php">
+          <a href="books.php">
             <img src="Images/Home Page/bestseller/book-8.jpg" />
             <div class="details">
               <h5>LKR.4,100/=</h5>              
@@ -217,10 +217,11 @@
           </a>
         </div>
       </div> 
-      <br><br><br><br><br><br>
+      <br><br><br><br><br>
       
       <!--Review section-->
       <h2 class="text-center">OUR HAPPY CUSTOMERS</h2>
+      <br><br><br><br>
       
       <!-- Review Slider -->
       <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
@@ -272,11 +273,35 @@
           </div>
           
           <div class="carousel-item">
-            <img class="rounded-circle shadow-1-strong mb-4" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <img class="rounded-circle shadow-1-strong mb-4" src="Images\Home Page\Testimonials\rds.jpg" alt="avatar" style="width: 150px;" />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
-                <h5 class="mb-3">Anna Deynah</h5>
-                <p>UX Designer</p>
+                <h5 class="mb-3">Raveen De Silva</h5>
+                <p>Student</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                  fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                  doloremque.
+                </p>
+              </div>
+            </div>
+            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4" src="Images\Home Page\Testimonials\kd.jpeg" alt="avatar" style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">Kavindu Dilshan</h5>
+                <p>Musician</p>
                 <p class="text-muted">
                   <i class="fas fa-quote-left pe-2"></i>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
@@ -307,6 +332,14 @@
         </button>
       </div>
       <!-- Review Slider Ends -->
+      <br><br><br><br>
+
+      <!--News Section-->
+      <h2 class="text-center">OUR LATEST NEWS</h2>
+      <br><br><br><br>
+
+
+
 
 
 

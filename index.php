@@ -336,7 +336,59 @@
 
       <!--News Section-->
       <h2 class="text-center">OUR LATEST NEWS</h2>
-      <br><br><br><br>
+      <br><br><br>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2016/02/09/08/01/null-1188489_1280.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+              <div class="card-body">
+                <p class="card-text">
+                  <small class="text-muted">03-05-2023</small>
+                </p>
+                <h5 class="card-title">Limited Time Sale</h5>
+                <p class="card-text">Grab your books with discount limited time offer. This offer valid for certain categories</p>
+                <a href="" class="card-link" style="text-decoration:none">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2018/01/18/10/09/stop-3089945_1280.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+              <div class="card-body">
+                <p class="card-text">
+                  <small class="text-muted">09-06-2023</small>
+                </p>
+                <h5 class="card-title">Stop Wasting Your Time</h5>
+                <p class="card-text">Booklr introduce new concept of delivering for suburbs and remote cities.</p>
+                <a href="" class="card-link" style="text-decoration:none">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2018/03/15/14/53/e-commerce-3228418_1280.jpg" class="card-img-top" alt="Fissure in Sandstone"/>
+              <div class="card-body">
+                <p class="card-text">
+                  <small class="text-muted">19-07-2023</small>
+                </p>
+                <h5 class="card-title">Secure Payment and Credentials Safe</h5>
+                <p class="card-text">Booklr partner with most securable platform to provide secure payments.</p>
+                <a href="" class="card-link" style="text-decoration:none">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+      <!--News Section Ends-->
+
+
+
 
 
 

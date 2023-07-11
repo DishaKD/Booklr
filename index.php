@@ -396,7 +396,46 @@
       <!--Button for view all news ends-->    
       <!--News Section Ends-->
 
-      <!--News Letter-->
+      <!--Company Statics Cards-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-users fa-2xl"></i>
+                <br><br>
+                <h2 class="card-title">28,789</h2>
+                <p class="card-text">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-book-open fa-2xl"></i>
+                <br><br>
+                <h2 class="card-title">30,000</h2>
+                <p class="card-text">Book Collection</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-location-dot fa-2xl"></i>
+                <br><br>
+                <h2 class="card-title">1536</h2>
+                <p class="card-text">Outlets Around The World</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <!--Company Statics Cards Ends-->
+
 
 
 

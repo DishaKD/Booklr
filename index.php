@@ -383,9 +383,20 @@
           </div>
         </div>
       </div>
-
-      <br><br><br>
+      <br><br>
+      <!--Button for view all news-->
+      <div class="container">
+        <div class="row">
+          <a href="books.php" style="text-decoration:none">
+            <button type="button" class="btn-rounded-0 btn-outline-dark btn-lg btn-block">VIEW ALL NEWS</button>
+          </a>
+        </div>
+      </div>
+      <br><br>
+      <!--Button for view all news ends-->    
       <!--News Section Ends-->
+
+      <!--News Letter-->
 
 
 

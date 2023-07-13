@@ -13,9 +13,12 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!--Bootstrap CDN-->    
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
-        <!-- MDB -->
+        <!-- Stackpath CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!--Swiper Js -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
         <!--Icon Library Font Awesome-->
-        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>                                                                                 
+        <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
         <!--Title of the webpage-->
         <title>Booklr</title>
     </Head>
@@ -75,150 +78,393 @@
         </div>
       </div>
 
-      <!--Bestseller section-->
-      <div class="bestseller-Section">
-        <div class="header">
-          <h3 Style="display:inline-block;">Bestseller</h3>
-          <p class="paragraph-bestseller" Style="display:inline-block;"><a href="books.php">View All</a>
+      <!--Bestseller section-->      
+      <section class="bestseller" id="bestseller">
+        <h1 class="heading">Bestsellers</h1>
+        <div class="swiper bestseller-slider">
+          <div class="swiper-wrapper">
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-1.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-2.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-3.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-4.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-5.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-6.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-7.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/book-8.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/9.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/10.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/11.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/12.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/13.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/14.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/15.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/16.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/17.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/18.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/19.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="bestseller-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/bestseller/20.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+      </section>
+      <!--Bestseller section end--> 
 
-        <!--Bestseller Books-->
-        <div class="bestseller-books">
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-1.jpg" />
-            <div class="details">
-              <h5>LKR.1,400/=</h5>              
+      <!--Top Rated section-->       
+      <section class="container-xl toprated" id="toprated">
+        <h1 class="heading">Top Rated Books </h1>
+        <div class="swiper toprated-slider">
+          <div class="swiper-wrapper">
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-1.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
-          
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-2.jpg" />
-            <div class="details">
-              <h5>LKR.900/=</h5>              
-            </div>
-          </a>
-          
 
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-3.jpg" />
-            <div class="details">
-              <h5>LKR.4,000/=</h5>              
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-2.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
-          
 
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-4.jpg" />
-            <div class="details">
-              <h5>LKR.1,780/=</h5>              
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-3.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
-          
 
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-5.jpg" />
-            <div class="details">
-              <h5>LKR.3,400/=</h5>              
+           <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-4.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
-          
 
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-6.jpg" />
-            <div class="details">
-              <h5>LKR.2,900/=</h5>              
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-5.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
 
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-7.jpg" />
-            <div class="details">
-              <h5>LKR.5,900/=</h5>              
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-6.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
-          
-          <a href="books.php">
-            <img src="Images/Home Page/bestseller/book-8.jpg" />
-            <div class="details">
-              <h5>LKR.4,100/=</h5>              
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-7.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
             </div>
-          </a>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-8.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-9.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-10.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+           <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-11.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-12.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-13.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-14.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-15.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-16.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-17.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-18.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-19.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+
+            <div class="toprated-books swiper-slide box">
+              <a href="books.php">
+                <img src="Images/Home Page/toprated/tr-20.jpg" />
+                <div class="details">
+                  <h5>LKR.4,100/=</h5>              
+                </div>
+              </a>
+            </div>
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
-      </div>      
-      <!--Bestseller section end-->
+      </section>
 
-      <!--Top Rated section-->      
-      <div class="toprated-Section">
-        <div class="header">
-          <h3 Style="display:inline-block;">Top Rated Books</h3>
-          <p class="paragraph-toprated" Style="display:inline-block;"><a href="books.php">View All</a>
-        </div>
-
-        <!--Bestseller Books-->
-        <div class="toprated-books">
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-1.jpg" />
-            <div class="details">
-              <h5>LKR.1,400/=</h5>              
-            </div>
-          </a>
-          
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-2.jpg" />
-            <div class="details">
-              <h5>LKR.900/=</h5>              
-            </div>
-          </a>
-          
-
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-3.jpg" />
-            <div class="details">
-              <h5>LKR.4,000/=</h5>              
-            </div>
-          </a>
-          
-
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-4.jpg" />
-            <div class="details">
-              <h5>LKR.1,780/=</h5>              
-            </div>
-          </a>
-          
-
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-5.jpg" />
-            <div class="details">
-              <h5>LKR.3,400/=</h5>              
-            </div>
-          </a>
-          
-
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-6.jpg" />
-            <div class="details">
-              <h5>LKR.2,900/=</h5>              
-            </div>
-          </a>
-
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-7.jpg" />
-            <div class="details">
-              <h5>LKR.5,900/=</h5>              
-            </div>
-          </a>
-          
-          <a href="#Books.php">
-            <img src="Images/Home Page/toprated/tr-8.jpg" />
-            <div class="details">
-              <h5>LKR.4,100/=</h5>              
-            </div>
-          </a>
-        </div>
-      </div> 
       <br><br><br><br><br>
-      
+
+
+
       <!--Review section-->
       <h2 class="text-center">OUR HAPPY CUSTOMERS</h2>
       <br><br><br><br>
@@ -436,23 +682,43 @@
       <br><br>
       <!--Company Statics Cards Ends-->
 
+      <!--Newsletter Section-->
+      <div class="row d-flex justify-content-center align-items-center rows">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="text-center">
+              <br><br>
+              <h3>GET SPECIAL OFFERS TO YOUR INBOX</h3>
+              <div class="mx-4">
+                <div class="input-group mb-3 mt-4">
+                  <input type="text" class="form-control" placeholder="Enter your email address here" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="col-sm-2">
+                  <button type="button" class="btn btn-dark btn-rounded" id="button-addon2">Subscribe</button>
+                  <br><br><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <!--Newsletter Section Ends-->
 
-
-
-
-
-
-
-
-
-        
+    <!--Include Footer-->  
     <?php include "./footer.php"?>  
     
+    
+
+    <!--Swiper Js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!--Bootstrap Java Script-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+    <script src="Java Scripts/hompage.js"></script>
+
   </body>
 </html>

@@ -33,22 +33,16 @@
 }
 /*Icon Bar ends*/
 
-/*Bestseller section*/
-.bestseller-Section h3 {
-  margin-left: 60px;
-}
-
-.paragraph-bestseller a,
+/*Bestseller & toprated section*/
 .paragraph-toprated a {
   text-align: right;
   text-decoration: none;
 }
-.bestseller-books,
 .toprated-books {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  gap: 15px;
+  margin: 2rem 0;
+  gap: 20px;
   margin-left: 60px;
   margin-right: auto;
   text-align: center;
@@ -60,17 +54,20 @@
   height: 19rem;
 }
 
-.bestseller-books a {
-  text-decoration: none;
-}
 .details {
   padding: 10px;
 }
 
-.toprated-Section h3 {
-  margin-left: 60px;
+.toprated-Section h5 {
+  text-align: center;
 }
 
 .toprated-books a {
   text-decoration: none;
+}
+
+/*Bestseller slider*/
+
+.details {
+  text-align: center;
 }

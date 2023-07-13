@@ -453,8 +453,7 @@
                   <h5>LKR.4,100/=</h5>              
                 </div>
               </a>
-            </div>
-            
+            </div>            
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>

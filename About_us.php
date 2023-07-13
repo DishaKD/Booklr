@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
     <Head>
          <!--Custom CSS-->
          <link rel="stylesheet" href="./Cascade Sheets/about.css"> 
-         <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">                                                                                   
-        <!--Title of the webpage-->
-        <title>Booklr</title>
+         <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">
+         <!--Bootstrap CDN-->    
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+         <!--Icon Library Font Awesome-->
+         <script src="https://kit.fontawesome.com/f36fba13b4.js" crossorigin="anonymous"></script>
+         <!--Title of the webpage-->
+         <title>About Us</title>
     </Head>
-
-    
-
 
     <body>
         <?php include "./header.php" ?>
@@ -49,121 +49,118 @@
                 <p>Embark on a literary journey with Booklr and immerse yourself in the captivating world of books. Let us be
                     your trusted companion in your reading endeavors. Happy reading!</p>
             </div>
-            </div>  
-            <!--our members-->
-            <section class="ourmem">
-                <div class="raw">
-                    <h1 class="ourteam">our team</h1>
-                </div>
-                <div class="box">
-                <!--column 1-->
-                <div class="raw">
-                    <div class="column">
-                        <div class="card">
-                            <div class="img-prof">
-                                <img src="Images/About Page/p4.jpg" alt="profile pic">
-                            </div>
-                            <h3>Dishal Dasanayake</h3>
-                            <p>Leader</p>
-                            <!--social media icons-->
-                            <div class="social-icons">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
+            </div>
+            
+            <div class="py-5 team4">
+                <div class="container">
+                    <div class="row justify-content-center mb-4">
+                        <div class="col-md-7 text-center">
+                            <h3 class="mb-3">Experienced & Professional Team</h3>
+                            <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
                         </div>
+                    </div>
+                    <div class="row">
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="Images/Home Page/Testimonials/sn.jpeg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0">Sachith Wasala</h5>
+                                        <h6 class="subtitle mb-3">Managing Director</h6>
+                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-facebook"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             
+                        <!-- Row -->
+                        </div>
+                        <!-- column  -->
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="Images/Home Page/Testimonials/mihi.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0">Mihiranga Fernando</h5>
+                                        <h6 class="subtitle mb-3">Continent Manager</h6>
+                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-facebook"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- column  -->
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="Images/Home Page/Testimonials/kd.jpeg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0">Kavindu Jayalath</h5>
+                                        <h6 class="subtitle mb-3">Marketing Specialist</h6>
+                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-facebook"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
+                        <!-- column  -->
+                        <!-- column  -->
+                        <div class="col-lg-3 mb-4">
+                            <!-- Row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="Images/Home Page/Testimonials/rds.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="pt-2">
+                                        <h5 class="mt-4 font-weight-medium mb-0">Raveen De Silva</h5>
+                                        <h6 class="subtitle mb-3">Operational Manager</h6>
+                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-facebook"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                            <li class="list-inline-item"><a href="#" class="text-decoration-none d-block px-1"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Row -->
+                        </div>
                     </div>
                 </div>
-
-                <!--column 2-->
-                <div class="raw">
-                    <div class="column">
-                        <div class="card">
-                            <div class="img-prof">
-                                <img src="Images/About Page/p4.jpg" alt="profile pic">
-                            </div>
-                            <h3>Mihiranga Fernando</h3>
-                            <p>member</p>
-                            <!--social media icons-->
-                            <div class="social-icons">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-                            
-                    </div>
-                </div>
-
-                <!--column 3-->
-                <div class="raw">
-                    <div class="column">
-                        <div class="card">
-                            <div class="img-prof">
-                                <img src="Images/About Page/p4.jpg" alt="profile pic">
-                            </div>
-                            <h3>Tharindu Raveen</h3>
-                            <p>member</p>
-                            <!--social media icons-->
-                            <div class="social-icons">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-                            
-                    </div>
-                </div>
-
-                <!--column 4-->
-                <div class="raw">
-                    <div class="column">
-                        <div class="card">
-                            <div class="img-prof">
-                                <img src="Images/About Page/p4.jpg" alt="profile pic">
-                            </div>
-                            <h3>Kavindu Dilshan</h3>
-                            <p>Member</p>
-                            <!--social media icons-->
-                            <div class="social-icons">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-                            
-                    </div>
-                </div>
-
-                <!--column 5-->
-                <div class="raw">
-                    <div class="column">
-                        <div class="card">
-                            <div class="img-prof">
-                                <img src="Images/About Page/p4.jpg" alt="profile pic">
-                            </div>
-                            <h3>Sachith Nimendra</h3>
-                            <p>Member</p>
-                            <!--social media icons-->
-                            <div class="social-icons">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-                            
-                    </div>
-                </div>
-            </div>    
-            </section> 
-
+            </div>
+            
             <?php include "./footer.php" ?>
-
-</body>
+        </body>
 </html>

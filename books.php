@@ -18,8 +18,7 @@
         <?php include "./header.php"?>
         
 
-          <?php
-          
+          <?php          
           // Fetch data from the database
           // Replace the database connection details with website
           $servername = "localhost";
@@ -34,35 +33,37 @@
           {
             die("Connection failed: " . $conn->connect_error);
           }
-          
+          //Get all categories
           $sqlcat = "SELECT category FROM books";
           $categories = $conn->query($sqlcat);
-          
+          // Array to store the unique category names
           $uniqueCategories = [];
-
+          //Sidebar starts
           echo "<div class='container-fluid category-bar'>";
           echo "<div class='row'>";
           echo "<div class='col-2 sidebar'>";
+          // Variable to all genre
           $all="all";
+          // Bootstrap list 
           echo "<ul class='list-group list-group-flush'>";
           echo "<li class='list-group-item'>Shop by Category</li>";
+          // Display All Genre
           echo "<li class='list-group-item'><a href='books.php?category=$all'>All Genre</a></li><br>";
-
+          // Add unique category to name to the array 
           while ($row = $categories->fetch_assoc()) 
           {
             $categoryname = $row["category"];
-            $categoryname = ucwords($categoryname);
+            $categoryname = ucwords($categoryname); // Capitalize each word
             if (!in_array($categoryname, $uniqueCategories))
             {
               $uniqueCategories[] = $categoryname;
             }
           }
-
+          // Generate categories to sidebar
           foreach ($uniqueCategories as $categoryname) 
           {
             echo "<li class='list-group-item'><a href='books.php?category='$categoryname'>$categoryname</a></li>";
           }         
-          
           // Check if a category was selected
           if(empty($_GET['category']) ) 
           {
@@ -84,10 +85,10 @@
               $query = "SELECT * FROM books WHERE category = '$selectedCategory'";
             }
           }
-          echo "</ul>";
-          echo "</div>";
-          echo "</div>";
-          echo "</div>";
+          echo "</ul>"; // Bootstrap list ends 
+          echo "</div>"; // col-2 </div>
+          echo "</div>"; // row </div>
+          echo "</div>"; // container-fluid </div>
 
 
           $result= mysqli_query($conn, $query);

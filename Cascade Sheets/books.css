@@ -69,27 +69,10 @@ h1 {
   font-family: arial;
 }
 
-.category-bar {
-  width: 200px;
-  background-color: 555;
+ul {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.category-bar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-}
-
-.category-bar li a {
-  display: block;
-  color: #000;
-  padding: 8px 30px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.category-bar li a:active {
-  background-color: #555;
-  color: white;
+li {
+  font-size: 16px;
 }

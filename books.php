@@ -1,5 +1,3 @@
-<!--Home Page-->
-<!--Home Page-->
 <!DOCTYPE html></Doctype>
 <html lang=en>
     <meta charset="utf-8">
@@ -10,79 +8,93 @@
     <Head>
         <!--Custom CSS-->
         <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">
-		<link rel="stylesheet" href="Cascade Sheets/books.css">       
+		    <link rel="stylesheet" href="Cascade Sheets/books.css"> 
+        <!--Bootstrap CDN-->    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">      
         <title>Books</title>
     </Head>  
 
     <body>
         <?php include "./header.php"?>
-
-      <div class="book-list">
-    <?php
-      // Fetch data from the database
-      // Replace the database connection details with your own
-      $servername = "localhost";
-      $username = "root";
-      $password = "";
-      $dbname = "Booklr";
-
-      // Create connection
-      $conn = new mysqli($servername, $username, $password, $dbname);
-
-      // Check connection
-      if ($conn->connect_error) {
-          die("Connection failed: " . $conn->connect_error);
-      }
-    
-       
-	   $sqlcat = "SELECT category FROM books";
-      $categories = $conn->query($sqlcat);
-	  
-	 echo "<div class='category-bar'>";
-	       $all="all";
-		echo "<h2 id='category'>Shop by category</h2>";
-
-		echo "<ul>"; 
-      echo "<li><a href='books.php?category=$all' >all</a></li><br>";
-
-     if ($categories->num_rows > 0) {
-		 
-		 
-      while ($row = $categories->fetch_assoc()) {
-        $categoryname = $row["category"];
         
-        echo "<li><a href='books.php?category=$categoryname'>$categoryname</a></li><br>";
-		 
-       }
-	   
-	 }
-	 echo "</ul>"; 
-	   echo "</div>";
-			 // Check if a category was selected
 
-         if(empty($_GET['category']) ) {
-            // Retrieve all book items
-            $query = "SELECT * FROM books";
-		}
-	     
-		elseif(isset($_GET['category']) && !empty($_GET['category'])) {
-            $selectedCategory = $_GET['category'];
-
-         if ($selectedCategory == "all") {
-            // Retrieve all book items
-            $query = "SELECT * FROM books";
-		}
-		 else {
-            // Retrieve book items for the selected category
-            $query = "SELECT * FROM books WHERE category = '$selectedCategory'";
-        }
+          <?php
           
-		}
-            
-			$result= mysqli_query($conn, $query);
-			
-			while ($row = mysqli_fetch_assoc($result)) {
-               echo "<div class='card'>";
+          // Fetch data from the database
+          // Replace the database connection details with website
+          $servername = "localhost";
+          $username = "root";
+          $password = "";
+          $dbname = "Booklr";
+          
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $dbname);
+          // Check connection
+          if ($conn->connect_error) 
+          {
+            die("Connection failed: " . $conn->connect_error);
+          }
+          
+          $sqlcat = "SELECT category FROM books";
+          $categories = $conn->query($sqlcat);
+          
+          $uniqueCategories = [];
+
+          echo "<div class='container-fluid category-bar'>";
+          echo "<div class='row'>";
+          echo "<div class='col-2 sidebar'>";
+          $all="all";
+          echo "<ul class='list-group list-group-flush'>";
+          echo "<li class='list-group-item'>Shop by Category</li>";
+          echo "<li class='list-group-item'><a href='books.php?category=$all'>All Genre</a></li><br>";
+
+          while ($row = $categories->fetch_assoc()) 
+          {
+            $categoryname = $row["category"];
+            $categoryname = ucwords($categoryname);
+            if (!in_array($categoryname, $uniqueCategories))
+            {
+              $uniqueCategories[] = $categoryname;
+            }
+          }
+
+          foreach ($uniqueCategories as $categoryname) 
+          {
+            echo "<li class='list-group-item'><a href='books.php?category='$categoryname'>$categoryname</a></li>";
+          }         
+          
+          // Check if a category was selected
+          if(empty($_GET['category']) ) 
+          {
+            // Retrieve all book items
+            $query = "SELECT * FROM books";
+          }
+          
+          elseif(isset($_GET['category']) && !empty($_GET['category']))
+          {
+            $selectedCategory = $_GET['category'];
+            if ($selectedCategory == "all") 
+            {
+              // Retrieve all book items
+              $query = "SELECT * FROM books";
+            }
+            else 
+            {
+              // Retrieve book items for the selected category
+              $query = "SELECT * FROM books WHERE category = '$selectedCategory'";
+            }
+          }
+          echo "</ul>";
+          echo "</div>";
+          echo "</div>";
+          echo "</div>";
+
+
+          $result= mysqli_query($conn, $query);
+          
+          while ($row = mysqli_fetch_assoc($result)) 
+          {
+            echo "<div class='card'>";
              echo "<img src='uploads/" . $row["image_filename"] . "'/>";
               echo "<h2>" . $row["book name"] . "</h2>";
               echo "<p class='price'>$" .$row["price"] . "</p>";
@@ -138,15 +150,18 @@
 	      
 	 echo "</div>";
       $conn->close();
+   
     ?>
-	</div> 
+
 
     <?php include "./footer.php"?>
 
+
+    <!--Bootstrap Java Script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
     </body>
-
-
-    
-
-
 </html>

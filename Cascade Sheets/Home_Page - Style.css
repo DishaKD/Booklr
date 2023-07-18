@@ -38,7 +38,8 @@
   text-align: right;
   text-decoration: none;
 }
-.toprated-books {
+.toprated-books,
+.bestseller-books {
   display: flex;
   flex-wrap: wrap;
   margin: 2rem 0;

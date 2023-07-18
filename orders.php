@@ -51,7 +51,7 @@
 		   echo "
 		         <form method='post' action=''> 
 		         <input type='checkbox' name='cancel_orders[]' class='checkbox' value='" . $row['order_ID'] . "'>
-		         <img src='uploads/" . $row["image_filename"] . "'/>";		 
+		         <img src='Images/BooksPage/uploads/" . $row["image_filename"] . "'/>";		 
 				 echo "<span><b>".$row["book_name"]."</b><span>
 				 <span class='ID'>ID :".$row["order_ID"]."</span>
 				s <span class='qty'>Qty:".$row["quantity"]."</span>

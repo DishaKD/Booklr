@@ -30,7 +30,7 @@
             <!--Brief about website and services-->
             <p class="text-justify">Booklr is a website for an extensive collection of  books, stationery and magazines.Not only a "one-stop shop" for book lovers but also an interactive and innovative destination designed to make it fun and exciting to discover and shop for new books online.</p>
             <!--Redirect to About Us page-->
-            <a href="about/About.php" class social>Learn More About Us</a>
+            <a href="About_us.php" class social>Learn More About Us</a>
           </div>  
           
           <div class="col-xs-6 col-md-3">
@@ -56,7 +56,7 @@
             <h6>INFORMATIONS</h6>
             <table class ="footer-table">
               <tr>
-                <td>About Us</td>
+                <td><a href="About_us.php">About Us</a></td>
                 <td>Terms & Conditions</td>
               </tr>
               <tr>

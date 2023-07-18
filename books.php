@@ -47,7 +47,7 @@
           echo "<ul class='list-group list-group-flush'>";
           echo "<li class='list-group-item'>Shop by Category</li>";
           // Display All Genre
-          echo "<li class='list-group-item'><a href='books.php?category=$all'>All Genre</a></li><br>";
+          echo "<li class='list-group-item text-center'><a href='books.php?category=$all'>All Genre</a></li><br>";
           // Add unique category to name to the array 
           while ($row = $categories->fetch_assoc()) 
           {
@@ -61,7 +61,7 @@
           // Generate categories to sidebar
           foreach ($uniqueCategories as $categoryname) 
           {
-            echo "<li class='list-group-item'><a href='books.php?category='$categoryname'>$categoryname</a></li>";
+            echo "<li class='list-group-item text-center'><a href='books.php?category='$categoryname'>$categoryname</a></li>";
           }         
           // Check if a category was selected
           if(empty($_GET['category']) ) 
@@ -89,7 +89,7 @@
           
 
           //Book Cards Open
-          echo "<div class='col-10 main-content pt-4'>";  
+          echo "<div class='col-10 main-content .p-4'>";  
           //Set Row
           echo "<div class='row'>";
           // Get all the books from book table
@@ -105,11 +105,11 @@
             $booksID = $DataRows ["book_ID"];  
 
           //Cards starts
-          echo "<div class='card col-md-2'>";        
-          echo "<img style='width:15rem; height:19rem;'src='Images/BooksPage/uploads/$booksImages'/>"; //Images 
+          echo "<div class='card col-md-2 .p-10'>";        
+          echo "<img src='Images/BooksPage/uploads/$booksImages'/>"; //Images 
           echo "<div class='card-body'>";
           echo "<p class='card-title'>".$booksName ."</p>"; //Book Name
-          echo "<p class='card-text'>$" .$booksPrice . "</p>"; // Book Price
+          echo "<p class='card-text'>LKR " .$booksPrice . ".00/=</p>"; // Book Price
 			    echo "<p class='text-muted'>by ".$booksAuthor."</p>"; // Book Author
 			    echo "<form method='POST' action=''>";
           echo "<button class='add-to-cart' name='submit' value=" . $booksID . ">Add to Cart</button>"; // Add to cart button

@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="Cascade Sheets/cart.css">
         <link rel="stylesheet" href="Cascade Sheets/headerFooter.css">
         <script src="Java Scripts/ShoppingCart/cart.js"></script>
-        <title>Booklr</title>
+        <title>Shopping Cart</title>
     </Head>
 
 
@@ -55,26 +55,31 @@
             $sql= "SELECT * FROM cart";
             $result= mysqli_query ($conn,$sql);			
             $subtotal = 0;
-			while ($row=$result->fetch_assoc()){
-        $subtotal = $subtotal + $row['price'];
+			while ($DataRows=$result->fetch_assoc())
+            {
+                $booksName = $DataRows["book_name"];
+                $booksImages = $DataRows ["image_filename"];
+                $booksPrice = $DataRows ["price"];                
+                $booksID = $DataRows ["book_ID"]; 
+                $subtotal = $subtotal + $DataRows['price'];
 			echo "<tr>
                 <td>
                     <div class='cart-info'>
-                        <img class='book' src='.jpeg'>
+                        <img class='book' src='Images/BooksPage/uploads/$booksImages'>
                         <div>
-                            <p>".$row['book_name']."</p>
+                            <p>$booksName</p>
                         </div>
                     </div>
                 </td>
                 <form method='POST' action=''>
-			   <td><input class='quantity".$row['book_ID']."' onchange='changequantity(`".$row['book_ID']."`)' type='number' name='quantity' min='0' value='1'></td>
-                <td class='price".$row['book_ID']."'>".$row['price']."</td></form>";
+			   <td><input class='quantity $booksID' onchange='changequantity(`$booksID`)' type='number' name='quantity' min='0' value='1'></td>
+                <td class='price $booksID'>$booksPrice</td></form>";
 				
     
 
 				echo"
-                <td><span class='total".$row['book_ID']." total-price-ammount'>".$row['price']."</span></td>
-                <td><a href='deletebooks.php?id=".$row['book_ID']."'>X</a></td>
+                <td><span class='total $booksID total-price-ammount'>$booksPrice</span></td>
+                <td><a href='deletebooks.php?id=$booksID'>X</a></td>
 				
             </tr>";
 			}
@@ -86,15 +91,15 @@
       <table>
           <tr>
               <td>Subtotal</td>
-              <td class='subtotal-ammount'>$".$subtotal."</td>
+              <td class='subtotal-ammount'>LKR ".$subtotal.".00/=</td>
           </tr>
           <tr>
               <td>Shipping</td>
-              <td>$60</td>
+              <td>LKR 420.00/=</td>
           </tr>
           <tr>
               <td>Total</td>
-              <td class='total-ammount'>$".($subtotal + 60)."</td>
+              <td class='total-ammount'>LKR ".($subtotal + 60).".00/=</td>
           </tr>
       </table>
 
@@ -102,7 +107,7 @@
 		
 
     
-
+        </div>
       
     </body>
       <?php include "./footer.php"?>

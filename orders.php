@@ -54,17 +54,17 @@
 		         <img src='Images/BooksPage/uploads/" . $row["image_filename"] . "'/>";		 
 				 echo "<span><b>".$row["book_name"]."</b><span>
 				 <span class='ID'>ID :".$row["order_ID"]."</span>
-				s <span class='qty'>Qty:".$row["quantity"]."</span>
+				 <span class='qty'>Qty:".$row["quantity"]."</span>
 				 <span class='status'>Status: ".$row["status"]."</span><br><br>
 				 <span class='delivery'>Delivery Date:".$row["delivery"]."</span>
-				 <span class='price'>Rs".$row["price"]."</span> 
+				 <span class='price'>LKR ".$row["price"].".00/=</span> 
 				 <hr>";
 				 //Displaying the sum
 				  if ($row["status"] !== "Cancelled") {
                   $sum += $row["price"];
                  }
 	   }
-	   echo  "<h3>Total :Rs".$sum."</h3>";
+	   echo  "<h3>Total :LKR ".$sum.".00/=</h3>";
 	   echo "<button type='submit' id='cancel' name='cancel-btn'>Cancel order</button>";	   
 	  echo "</form>";
 	  

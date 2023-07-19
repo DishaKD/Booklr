@@ -6,6 +6,8 @@
   </a>
 </h1>
 
+    
+## About The Project
 <p align=center>ONLINE BOOK STORE</p>
 <br>
 This project is website for a online book store named as <b>"Booklr"</b>  created with PHP , HTML, CSS, Js ,Bootsrap and MySQL.

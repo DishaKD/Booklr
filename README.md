@@ -14,4 +14,4 @@ This project is website for a online book store named as <b>"Booklr"</b>  create
 ## About the project
 <img  src="Images/Readme Images/Screen Shots/website (2).png"  alt="Logo">
 <img  src="Images/Readme Images/Screen Shots/website (3).png"  alt="Logo">
-<img  src="Images/Readme Images/Screen Shots/website (4).png"  alt="Logo" width="200"  height="200">
+

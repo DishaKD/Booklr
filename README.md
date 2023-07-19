@@ -16,4 +16,4 @@ This project is website for a online book store named as <b>"Booklr"</b>  create
 <img  src="Images/Readme Images/Screen Shots/website (2).png"  alt="Logo">
 <img  src="Images/Readme Images/Screen Shots/website (3).png"  alt="Logo">
 
-
+Website created in .php files add HTML and Bootsrap5 and styled using external CSS3 files

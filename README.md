@@ -1,2 +1,5 @@
-<h1>Booklr</h1>
-This Project is  ONLINE BOOK STORE  website
+# Booklr
+
+Project Overview
+
+This project is website for a online book store named as "**Booklr**".

@@ -1,4 +1,4 @@
-# Booklr
+# <align=center> Booklr
 
 Project Overview
 

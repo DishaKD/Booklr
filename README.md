@@ -8,3 +8,5 @@ This project is website for a online book store named as "**Booklr**".
 ![alt text](https://markdown.land/wp-content/uploads/2021/06/markdown-512px.png "Our logo")
 
 </div>
+<h1 style="text-align: center;">Test</h1>
+Some content

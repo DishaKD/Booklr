@@ -1,4 +1,5 @@
 <h1 align=center> Booklr </h1>
+<img  src="https://github.com/DishaKD/Booklr/blob/master/Images/Header%20%26%20Footer/logo.png"  alt="Logo"  >
 <p align=center>online book store</p>
 <br>
 This project is website for a online book store named as <b>"Booklr".</b> PHP , HTML, CSS , Js and Bootsrap used to build Booklr.
@@ -8,6 +9,6 @@ This project is website for a online book store named as <b>"Booklr".</b> PHP , 
 
 <a  href="https://github.com/github_username/repo_name">
 
-<img  src="https://github.com/DishaKD/Booklr/blob/master/Images/Header%20%26%20Footer/logo.png"  alt="Logo"  >
+
 
 </a>

@@ -5,11 +5,10 @@
       <img  src="https://github.com/DishaKD/Booklr/blob/master/Images/Header%20%26%20Footer/logo.png"  alt="Logo" >
   </a>
 </h1>
-
-    
-## About The Project
 <p align=center>ONLINE BOOK STORE</p>
 <br>
+
+## About The Project
 This project is website for a online book store named as <b>"Booklr"</b>  created with PHP , HTML, CSS, Js ,Bootsrap and MySQL.
 
 

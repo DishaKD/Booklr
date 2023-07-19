@@ -12,3 +12,6 @@
 This project is website for a online book store named as <b>"Booklr"</b>  created with PHP , HTML, CSS, Js ,Bootsrap and MySQL. XAMPP use to configure PHP and MySQL. 
 
 ## About the project
+<img  src="Images/Readme Images/Screen Shots/website (2).png"  alt="Logo">
+<img  src="Images/Readme Images/Screen Shots/website (3).png"  alt="Logo">
+

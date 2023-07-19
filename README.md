@@ -1,3 +1,4 @@
+<!-- PROJECT LOGO -->
 <h1>
   <div  align="center">
   <a  href="https://github.com/DishaKD/Booklr">
@@ -7,13 +8,6 @@
 
 <p align=center>ONLINE BOOK STORE</p>
 <br>
-This project is website for a online book store named as <b>"Booklr".</b> PHP , HTML, CSS , Js and Bootsrap used to build Booklr.
-<!-- PROJECT LOGO -->
-
-<div  align="center">
-
-<a  href="https://github.com/github_username/repo_name">
+This project is website for a online book store named as <b>"Booklr"</b>  created with PHP , HTML, CSS, Js ,Bootsrap and MySQL.
 
 
-
-</a>

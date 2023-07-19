@@ -9,6 +9,6 @@
 <br>
 
 ## Project Description
-This project is website for a online book store named as <b>"Booklr"</b>  created with PHP , HTML, CSS, Js ,Bootsrap and MySQL.
+This project is website for a online book store named as <b>"Booklr"</b>  created with PHP , HTML, CSS, Js ,Bootsrap and MySQL. XAMPP use to configure PHP and MySQL 
 
 

@@ -1,4 +1,4 @@
-<h1 align=center>** Booklr ** </h1>
+<h1 align=center> Booklr </h1>
 
 Project Overview
 

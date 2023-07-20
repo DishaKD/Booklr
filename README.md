@@ -40,4 +40,22 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <li>Identify Port Number</li>
     <img align=center src="Images/Readme Images/Screen Shots/Port Identify.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>
+  <li>Type <a href="">localhost:[Port_Number]/phpmyadmin/</a> in address bar</li>
+  <br><br>
+  [Port_Number] - Identified port number in XAMPP (Above Screenshot describe how to identify port number)
+  <br><br>
+  Redirect Page 
+  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <li>Click "New" in Left Sidebar</li>
+  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <li>Type "booklr" in database name field</li>
+  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <li>After creating database click "booklr" database and click "Import"</li>
+  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <li>Click "Choose File" and select databse tables in <a href="">Database</a> folder</li>
+  <li>Type the following address in address bar</li>
+  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <br><br>
+  [Folder Name] = Extracted Folder Name 
+  
 </ul>

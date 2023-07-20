@@ -80,4 +80,5 @@ Booklr Website built according to wireframes. Wireframes designed by <br>
 <a href="https://www.linkedin.com/in/kavindudilshan84/">Kavindu Dilshan</a>
 
 Wireframes   
+<img align=center src="Images/Readme Images/Online Book Store_Wireframes/Home Page.jpg">
 

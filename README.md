@@ -40,4 +40,6 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <li>Identify Port Number</li>
     <img align=center src="Images/Readme Images/Screen Shots/Port Identify.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>
+  <li>Type the following address in address bar</li>
+  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
 </ul>

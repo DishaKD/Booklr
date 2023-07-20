@@ -50,6 +50,9 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <img align=center src="Images/Readme Images/Screen Shots/Create Database.png">
   <li>Type "booklr" in database name field</li>
   <img align=center src="Images/Readme Images/Screen Shots/Database Creating.png">
+  <br>
+  Type correctly "booklr". If database name incorrect website didn't work properly
+  <br>
   <li>After creating database click "booklr" database and click "Import"</li>
   <img align=center src="Images/Readme Images/Screen Shots/Import.png">
   <li>Click "Choose File" and select databse tables in <a href="">Database</a> folder</li>

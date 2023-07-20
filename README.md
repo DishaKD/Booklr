@@ -21,11 +21,18 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
 ## Instruction to project
 <ul>
   <li>Download <a href="https://github.com/DishaKD/Booklr/tree/master">Booklr</a> project</li>
-  <img src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/Github%20ZIp%20Download.png">
+  <img align=center src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/Github%20ZIp%20Download.png">
   <br>
   Click "Download Zip" and Extract the Zip
   <br>
   <li>Download <a href="https://www.apachefriends.org/download.html">XAMPP</a> and Install XAMPP</li>
   <li>Open XAMPP and Click "Explore"</li>
-  <img src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/XAMPP%20Open%20.png">
+  <img align=center src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/XAMPP%20Explore.png">
+  <li>Click "htdocs" Folder </li>
+  <img align=center src="Images/Readme Images/Screen Shots/XAMPP Folder.png">
+  <li>Copy Extracted Booklr Folder into htdocs Folder</li>
+  <li>Go to XAMPP application and hit Start Apache and MySQL</li>
+  Before click "Start"
+  <img align=center src="Images/Readme Images/Screen Shots/XAMPP Start.png">
+  <li>Open Web browser(Chrome/Edge/Any other)</li>
 </ul>

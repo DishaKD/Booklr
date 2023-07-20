@@ -73,3 +73,5 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   [Folder Name] = Extracted Folder Name 
   <li>Then Website will appear</li>  
 </ul>
+
+## Instruction to project

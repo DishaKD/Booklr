@@ -31,8 +31,10 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <li>Click "htdocs" Folder </li>
   <img align=center src="Images/Readme Images/Screen Shots/XAMPP Folder.png">
   <li>Copy Extracted Booklr Folder into htdocs Folder</li>
-  <li>Go to XAMPP application and hit Start Apache and MySQL</li>
+  <li>Go to XAMPP application and hit Start Apache and MySQL</li><br>
   Before click "Start"
+  <img align=center src="Images/Readme Images/Screen Shots/XAMPP Start.png">
+  After click "Start"
   <img align=center src="Images/Readme Images/Screen Shots/XAMPP Start.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>
 </ul>

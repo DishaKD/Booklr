@@ -24,7 +24,7 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <img align=center src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/Github%20ZIp%20Download.png">
   <br>
   Click "Download Zip" and Extract the Zip
-  <br>
+  <br><br>
   <li>Download <a href="https://www.apachefriends.org/download.html">XAMPP</a> and Install XAMPP</li>
   <li>Open XAMPP and Click "Explore"</li>
   <img align=center src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/XAMPP%20Explore.png">
@@ -34,7 +34,10 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <li>Go to XAMPP application and hit Start Apache and MySQL</li><br>
   Before click "Start"
   <img align=center src="Images/Readme Images/Screen Shots/XAMPP Start.png">
-  After click "Start"
-  <img align=center src="Images/Readme Images/Screen Shots/XAMPP Start.png">
+  <br><br>
+  After click "Start" 
+  <img align=center src="Images/Readme Images/Screen Shots/After Start XAMPP.png">
+  <li>Identify Port Number</li>
+    <img align=center src="Images/Readme Images/Screen Shots/Port Identify.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>
 </ul>

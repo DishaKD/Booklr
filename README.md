@@ -18,5 +18,7 @@ This project is website for a online book store named as <b>"Booklr"</b>  create
 
 Website created HTML and Bootsrap5 insert into PHP files and styled using external CSS3 files. Backend develop with internal PHP and external Js. XAMPP used to maintain databases and as localhost.<a href="https://mdbootstrap.com/"> MD Bootsrap</a> and <a href="https://freefrontend.com/)https://freefrontend.com/"> Free Front End </a> used as resources to develop front end of the website.
 
-## Intruction to project
-*Download XAMPP
+## Instruction to project
+<ul>
+  <li>Download <a href="">XAMPP</a></li>
+</ul>

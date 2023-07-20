@@ -22,7 +22,9 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
 <ul>
   <li>Download <a href="https://github.com/DishaKD/Booklr/tree/master">Booklr</a> project</li>
   <img src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/Github%20ZIp%20Download.png">
+  <br>
   Click "Download Zip" and Extract the Zip
+  <br>
   <li>Download <a href="https://www.apachefriends.org/download.html">XAMPP</a> and Install XAMPP</li>
   <li>Open XAMPP</li>
   <img src="">

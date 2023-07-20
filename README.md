@@ -34,7 +34,7 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <li>Go to XAMPP application and hit Start Apache and MySQL</li><br>
   Before click "Start"
   <img align=center src="Images/Readme Images/Screen Shots/XAMPP Start.png">
-  <br>
+  <br><br>
   After click "Start" 
   <img align=center src="Images/Readme Images/Screen Shots/After Start XAMPP.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>

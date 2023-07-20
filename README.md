@@ -77,5 +77,5 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
 ## UI/UX Designs 
 Booklr Website built according to wireframes. Wireframes designed by <a href="https://www.linkedin.com/in/kavindudilshan84/">Kavindu Dilshan</a>
 
-Wireframes   ![avatar](https://www.linkedin.com/in/kavindudilshan84/overlay/photo/)
+Wireframes   ![avatar](https://avatars.githubusercontent.com/u/125633025?v=4)
 

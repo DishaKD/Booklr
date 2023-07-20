@@ -64,8 +64,9 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <li>Click "Choose File" and select databse tables in <a href="Database">Database</a> folder</li>
   <img align=center src="Images/Readme Images/Screen Shots/Import process-2.png">
   <br><br>
-  <li>Click "Go" add tables each by each </li>
-  <img align=center src="Images/Readme Images/Screen Shots/Import.png">
+  <li>Click "Import" import tables each by each </li>
+  <img align=center src="Images/Readme Images/Screen Shots/Import process.png">
+  <br><br>
   <li>Type the following address in address bar</li>
   <img align=center src="Images/Readme Images/Screen Shots/Address.png">
   <br><br>

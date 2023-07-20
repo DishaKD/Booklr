@@ -87,6 +87,7 @@ Wireframes
 
 ## User Journeys of Booklr
 User journeys created to identify user behaviour in Booklr. Go all the user journeys through <a href="Images/Readme Images/User Journey">User Journey</a> Folder.
-<img align=center src="Images/Readme Images/User Journey/User Journey-01.png" width="500" height="600">
+<div  align="center">
+<img src="Images/Readme Images/User Journey/User Journey-01.png" width="500" height="600">
 
 

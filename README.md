@@ -97,13 +97,15 @@ Contibutors to make Booklr success.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mihiranga-fernando-10608526a/"><img src="Images/Readme Images/Members/mihi-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Readme Images/Members/rds-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Readme Images/Members/sn-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/raveen-de-silva-4a2804216/"><img src="Images/Readme Images/Members/rds-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sachith-nimendra-018828258/"><img src="Images/Readme Images/Members/sn-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp; 
 
 &nbsp;&nbsp;<a href="https://www.linkedin.com/in/kavindudilshan84/">Kavindu Dilshan</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/mihiranga-fernando-10608526a/">Mihiranga Fernando</a>&nbsp;&nbsp;&nbsp;&nbsp;
-Raveen De Silva&nbsp;&nbsp;&nbsp;&nbsp;
-Sachith Nimendra&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/raveen-de-silva-4a2804216/">Raveen De Silva</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/sachith-nimendra-018828258/">Sachith Nimendra</a>&nbsp;&nbsp;
 
 
 

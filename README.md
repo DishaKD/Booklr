@@ -75,10 +75,23 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
 </ul>
 
 ## UI/UX Designs 
-Booklr Website built according to wireframes. Wireframes designed by <br>
-<img src="Images/Home Page/Testimonials/kd-1.jpeg" alt="Kitten" title="A cute kitten" width="150" height="200" border-radius="50"/> 
+Booklr Website built according to wireframes.<br> Wireframes designed by 
+<a href="https://github.com/kavindu-dilshan"><img src="Images/Readme Images/Members/kd-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/></a> 
 <a href="https://www.linkedin.com/in/kavindudilshan84/">Kavindu Dilshan</a>
 
-<img src="Images/Home Page/Testimonials/kd-1.jpeg" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 Wireframes   
+<img align=center src="Images/Readme Images/Online Book Store_Wireframes/Home Page.jpg" width="350" height="900">
+<img align=center src="Images/Readme Images/Online Book Store_Wireframes/FAQ.jpg" width="450" height="600">
+<br><br>
+<p align=center>All the wireframes in <a href="Images/Readme Images/Online Book Store_Wireframes">Wire Frames Folder</a>.</p>
+
+## User Journeys of Booklr
+User journeys created to identify user behaviour in Booklr. Go all the user journeys through <a href="Images/Readme Images/User Journey">User Journey</a> Folder.
+<div  align="center">
+<img src="Images/Readme Images/User Journey/User Journey-01.png" width="500" height="600">
+
+## Contributors
+Contibutors to make Booklr success.
+<br><br>
+<img src="Images/Readme Images/Members/kd-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/>
 

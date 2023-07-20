@@ -41,7 +41,7 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
     <img align=center src="Images/Readme Images/Screen Shots/Port Identify.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>
   <li>Type <a href="">localhost:[Port_Number]/phpmyadmin/</a> in address bar</li>
-  <br><br>
+  <br>
   [Port_Number] - Identified port number in XAMPP (Above Screenshot describe how to identify port number)
   <br><br>
   Redirect Page 

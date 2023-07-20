@@ -45,6 +45,7 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   [Port_Number] - Identified port number in XAMPP (Above Screenshot describe how to identify port number)
   <br><br>
   Redirect Page 
+  <br>
   <img align=center src="Images/Readme Images/Screen Shots/phpMyAdmin .png">
   <li>Click "New" in Left Sidebar</li>
   <img align=center src="Images/Readme Images/Screen Shots/Create Database.png">

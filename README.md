@@ -61,7 +61,7 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <br><br>
   <img align=center src="Images/Readme Images/Screen Shots/Import.png">
   <br><br>
-  <li>Click "Choose File" and select databse tables in <a href="">Database</a> folder</li>
+  <li>Click "Choose File" and select databse tables in <a href="Database">Database</a> folder</li>
   
   <li>Type the following address in address bar</li>
   <img align=center src="Images/Readme Images/Screen Shots/Address.png">

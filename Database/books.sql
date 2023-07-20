@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 11, 2023 at 03:33 PM
+-- Generation Time: Jul 20, 2023 at 04:31 PM
 -- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- PHP Version: 8.0.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `books`
+-- Database: `booklr`
 --
 
 -- --------------------------------------------------------
@@ -51,95 +51,23 @@ INSERT INTO `books` (`book_ID`, `book name`, `author`, `publisher`, `price`, `ca
 (7, 'On the Origin of Species', ' Charles Darwin', ' Wikipedia', 3800, ' literature', 'origin.jpg'),
 (8, 'The Divine Comedy', 'Dante Alighieri', 'Publisher', 1300, 'comedy', 'divine.jpg'),
 (9, 'The Republic', 'Plato', ' Wikipedia', 3700, 'comedy', 'republic.jpg'),
-(10, 'Das Kapital', ' Karl Marx', 'Kritik', 1460, 'political', 'kapital.jpg');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `cart`
---
-
-CREATE TABLE `cart` (
-  `book_ID` int(10) NOT NULL,
-  `book_name` varchar(20) NOT NULL,
-  `price` float NOT NULL,
-  `image_filename` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `cart`
---
-
-INSERT INTO `cart` (`book_ID`, `book_name`, `price`, `image_filename`) VALUES
-(2, ' Ulysses', 20, 'ulyss.jpg'),
-(4, ' Don Quixote', 40, 'don quix.jpg'),
-(5, 'clockwise orange', 50, 'orange.jpg');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `orders`
---
-
-CREATE TABLE `orders` (
-  `order_ID` int(10) NOT NULL,
-  `book_name` varchar(20) NOT NULL,
-  `author` varchar(30) NOT NULL,
-  `price` float NOT NULL,
-  `status` varchar(30) NOT NULL,
-  `delivery` varchar(30) NOT NULL,
-  `quantity` int(10) NOT NULL,
-  `image_filename` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `orders`
---
-
-INSERT INTO `orders` (`order_ID`, `book_name`, `author`, `price`, `status`, `delivery`, `quantity`, `image_filename`) VALUES
-(1, ' Miguel de Cervantes', ' Don Quixote', 720, 'Delivered', '12/09/2022', 2, 'don quix.jpg'),
-(2, 'moby bick', ' Leopold Bloom', 1200, 'in transit ', '23/03/2023', 3, 'moby bick.jpg'),
-(3, ' In Search of Lost T', 'Marcel Proust', 500, 'Cancelled', '22/08/2023', 5, 'in search.jpg'),
-(4, 'great gatsby', 'steven bence', 570, 'preparing', '12/09/2023', 4, 'gatsby.jpg'),
-(5, 'Swann\'s Way', ' Ulysses ', 699, 'Cancelled', '08/07/2022', 4, 'ulyss.jpg');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `books`
---
-ALTER TABLE `books`
-  ADD PRIMARY KEY (`book_ID`);
-
---
--- Indexes for table `cart`
---
-ALTER TABLE `cart`
-  ADD PRIMARY KEY (`book_ID`);
-
---
--- Indexes for table `orders`
---
-ALTER TABLE `orders`
-  ADD PRIMARY KEY (`order_ID`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `books`
---
-ALTER TABLE `books`
-  MODIFY `book_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=213126;
-
---
--- AUTO_INCREMENT for table `orders`
---
-ALTER TABLE `orders`
-  MODIFY `order_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+(10, 'Das Kapital', ' Karl Marx', 'Kritik', 1460, 'political', 'kapital.jpg'),
+(1000, 'Business Book Cover', 'Salford & Co.', 'Marketing Agency', 2500, 'Business & Marketing', '9.jpg'),
+(1100, 'Treasure', 'Olivia Wilson', 'Agency 5', 9000, 'Novel', '10.jpg'),
+(1200, 'King', 'Olivia Wilson', 'Agency 5', 7500, 'Novel', '11.jpg'),
+(1300, 'Roman', 'Olivia Wilson', 'Agency 5', 6000, 'Novel', '12.jpg'),
+(1500, 'Warrior', 'Olivia Wilson', 'Agency 5', 4500, 'Novel', '14.jpg'),
+(1600, 'The way to Success', 'Francois Mercer', 'Ocean Publishers', 4000, 'Business & Marketing', '15.jpg'),
+(1700, 'The Story of The Tree', 'Helene Paquet', 'Lamour Publishers', 6000, 'Kids', '16.jpg'),
+(1800, 'Ranch', 'Olivia Wilson', 'Agency 5', 5000, 'Novel', '17.jpg'),
+(1900, 'City', 'Jason Hayes', 'Seal Publishers', 6000, 'Magazine', '18.jpg'),
+(2000, 'Design Guide', 'Ramond Perry', '001', 5900, 'Guide', '19.jpg'),
+(2100, 'Alone A True Story', 'Morgna Maxwell', 'Ant Publishers', 4500, 'Novel', '20.jpg'),
+(2200, 'SOLO', 'Olivia Wilson', 'Agency 5', 1500, 'Novel', '21.jpg'),
+(2300, 'Science 101 For Children', 'Matt Zhang', 'Roid', 3400, 'Kids', 'book-1.jpg'),
+(1400, 'Solider', 'Olivia Wilson', 'Agency 5', 7500, 'Novel', '13.jpg'),
+(2400, 'The Lost World', 'Olivia Wilson', 'Agency 5', 9000, 'Novel', 'book-2.jpg'),
+(2500, 'The Black Universe', 'Greta Mae Evans', 'Agency 5', 4500, 'Novel', 'book-3.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

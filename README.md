@@ -85,3 +85,4 @@ Wireframes
 <br><br>
 <p align=center>All the wireframes in <a href="Images/Readme Images/Online Book Store_Wireframes">Wire Frames Folder</a>.</p>
 
+## User Journey of Websites

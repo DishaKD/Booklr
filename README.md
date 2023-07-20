@@ -81,4 +81,4 @@ Booklr Website built according to wireframes.<br> Wireframes designed by
 
 Wireframes   
 <img align=center src="Images/Readme Images/Online Book Store_Wireframes/Home Page.jpg" width="400" height="900">
-<img align=center src="Images/Readme Images/Online Book Store_Wireframes/FAQ.jpg" width="400" height="900">
+<img align=center src="Images/Readme Images/Online Book Store_Wireframes/FAQ.jpg" width="450" height="900">

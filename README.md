@@ -98,7 +98,7 @@ Contibutors to make Booklr success.
 <img src="Images/Readme Images/Members/rds-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/> 
 <img src="Images/Readme Images/Members/sn-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/> 
 
-Kavindu Dilshan 
+Kavindu Dilshan  Mihiranga Fernando  Raveen De Silva  Sachith Nimendra
 
 
 

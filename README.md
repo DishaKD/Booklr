@@ -20,6 +20,6 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
 
 ## Instruction to project
 <ul>
-  <li>Download <a href="https://www.apachefriends.org/download.html">XAMPP</a>and Install XAMPP</li>
-  <li></li>
+  <li>Download <a href="https://www.apachefriends.org/download.html">XAMPP</a> and Install XAMPP</li>
+  <li>Open XAMPP</li>
 </ul>

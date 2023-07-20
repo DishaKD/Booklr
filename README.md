@@ -41,21 +41,44 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
     <img align=center src="Images/Readme Images/Screen Shots/Port Identify.png">
   <li>Open Web browser(Chrome/Edge/Any other)</li>
   <li>Type <a href="">localhost:[Port_Number]/phpmyadmin/</a> in address bar</li>
-  <br><br>
+  <br>
   [Port_Number] - Identified port number in XAMPP (Above Screenshot describe how to identify port number)
   <br><br>
   Redirect Page 
-  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <br><br>
+  <img align=center src="Images/Readme Images/Screen Shots/phpMyAdmin .png">
+  <br><br>
   <li>Click "New" in Left Sidebar</li>
-  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <br><br>
+  <img align=center src="Images/Readme Images/Screen Shots/Create Database.png">
+  <br><br>
   <li>Type "booklr" in database name field</li>
-  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
+  <br><br>
+  <img align=center src="Images/Readme Images/Screen Shots/Database Creating.png">
+  Type correctly "booklr". If database name incorrect website didn't work properly
+  <br><br>
   <li>After creating database click "booklr" database and click "Import"</li>
-  <img align=center src="Images/Readme Images/Screen Shots/Address.png">
-  <li>Click "Choose File" and select databse tables in <a href="">Database</a> folder</li>
+  <br><br>
+  <img align=center src="Images/Readme Images/Screen Shots/Import.png">
+  <br><br>
+  <li>Click "Choose File" and select databse tables in <a href="Database">Database</a> folder</li>
+  <img align=center src="Images/Readme Images/Screen Shots/Import process-2.png">
+  <br><br>
+  <li>Click "Import" import tables each by each </li>
+  <img align=center src="Images/Readme Images/Screen Shots/Import process.png">
+  <br><br>
   <li>Type the following address in address bar</li>
   <img align=center src="Images/Readme Images/Screen Shots/Address.png">
   <br><br>
   [Folder Name] = Extracted Folder Name 
-  
+  <li>Then Website will appear</li>  
 </ul>
+
+## UI/UX Designs 
+Booklr Website built according to wireframes. Wireframes designed by <br>
+<img src="Images/Home Page/Testimonials/kd.jpeg" alt="Kitten" title="A cute kitten" width="150" height="100" /> 
+<a href="https://www.linkedin.com/in/kavindudilshan84/">Kavindu Dilshan</a>
+
+
+Wireframes   
+

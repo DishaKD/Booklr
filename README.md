@@ -47,22 +47,20 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   Redirect Page 
   <br><br>
   <img align=center src="Images/Readme Images/Screen Shots/phpMyAdmin .png">
-  
+  <br><br>
   <li>Click "New" in Left Sidebar</li>
   <br><br>
   <img align=center src="Images/Readme Images/Screen Shots/Create Database.png">
-  
+  <br><br>
   <li>Type "booklr" in database name field</li>
   <br><br>
   <img align=center src="Images/Readme Images/Screen Shots/Database Creating.png">
-
   Type correctly "booklr". If database name incorrect website didn't work properly
-
+  <br><br>
   <li>After creating database click "booklr" database and click "Import"</li>
   <br><br>
   <img align=center src="Images/Readme Images/Screen Shots/Import.png">
   <br><br>
-  
   <li>Click "Choose File" and select databse tables in <a href="">Database</a> folder</li>
   
   <li>Type the following address in address bar</li>

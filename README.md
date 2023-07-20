@@ -83,5 +83,5 @@ Wireframes
 <img align=center src="Images/Readme Images/Online Book Store_Wireframes/Home Page.jpg" width="350" height="900">
 <img align=center src="Images/Readme Images/Online Book Store_Wireframes/FAQ.jpg" width="450" height="600">
 <br><br>
-All the wireframes in <a href="Images/Readme Images/Online Book Store_Wireframes">Wire Frames Folder</a>.
+<p align=center>All the wireframes in <a href="Images/Readme Images/Online Book Store_Wireframes">Wire Frames Folder</a>.</p>
 

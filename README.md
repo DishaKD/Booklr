@@ -92,4 +92,6 @@ User journeys created to identify user behaviour in Booklr. Go all the user jour
 
 ## Contributors
 Contibutors to make Booklr success.
+<br><br>
+<img src="Images/Readme Images/Members/kd-modified.png" alt="Kavindu" title="Kavindu" width="70" height="70"/>
 

@@ -30,4 +30,5 @@ Website created HTML and Bootsrap5 insert into PHP files and styled using extern
   <img src="https://github.com/DishaKD/Booklr/blob/master/Images/Readme%20Images/Screen%20Shots/XAMPP%20Explore.png">
   <li>Click "htdocs" Folder </li>
   <img src="Images/Readme Images/Screen Shots/XAMPP Folder.png">
+  <li>Copy Extracted Booklr Folder into htdocs Folder</li>
 </ul>

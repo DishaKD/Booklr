@@ -86,8 +86,8 @@ Wireframes
 <p align=center>All the wireframes in <a href="Images/Readme Images/Online Book Store_Wireframes">Wire Frames Folder</a>.</p>
 
 ## User Journeys of Booklr
-<img align=center src="Images/Readme Images/User Journey/User Journey-01.png" width="300" height="500">
-<img align=center src="Images/Readme Images/User Journey/User Journey-02.png" width="300" height="500">
+<img align=center src="Images/Readme Images/User Journey/User Journey-01.png" width="300" height="600">
+<img align=center src="Images/Readme Images/User Journey/User Journey-02.png" width="300" height="600">
 <img align=center src="Images/Readme Images/User Journey/User Journey-03.png" width="350" height="500">
 <img align=center src="Images/Readme Images/User Journey/User Journey-04.png" width="350" height="500">
 
